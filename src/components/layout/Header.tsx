@@ -11,9 +11,9 @@ export const Header: React.FC<HeaderProps> = ({ onSearch }) => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const navItems = [
-    { name: 'Home', href: '/#home' },
-    { name: 'Artikel', href: '/#artikel' },
-    { name: 'Tentang Kami', href: '/tetangkami' },
+    { name: 'Home', href: '#home' },
+    { name: 'Artikel', href: '#artikel' },
+    { name: 'Tentang Kami', href: '#tentang' },
   ];
 
   return (
