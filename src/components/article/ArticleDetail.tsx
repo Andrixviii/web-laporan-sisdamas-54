@@ -44,7 +44,6 @@ export const ArticleDetail: React.FC<ArticleDetailProps> = ({
           <AuthorInfo
             author={article.author}
             publishedAt={article.publishedAt}
-            readTime={article.readTime}
           />
           
           <div className="flex items-center space-x-2">
