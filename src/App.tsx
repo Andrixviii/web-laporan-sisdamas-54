@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Artikel/>} />
-        <Route path="/TentangKami" element={<TetangKami/>} />
+        <Route path="/tetangkami" element={<TetangKami/>} />
       </Routes>
     </Router>
   );

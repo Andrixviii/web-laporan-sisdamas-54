@@ -13,7 +13,7 @@ export const Header: React.FC<HeaderProps> = ({ onSearch }) => {
   const navItems = [
     { name: 'Home', href: '/#home' },
     { name: 'Artikel', href: '/#artikel' },
-    { name: 'Tentang Kami', href: '/TentangKami' },
+    { name: 'Tentang Kami', href: '/tetangkami' },
   ];
 
   return (
