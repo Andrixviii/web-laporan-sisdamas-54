@@ -1,6 +1,6 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router';
 import Artikel from './components/page/Home';
-import TetangKami from './components/page/tetang-kami';
+import TetangKami from './components/page/TentangKami';
 
 function App() {
   return (
