@@ -23,7 +23,7 @@ export const ArticleDetail: React.FC<ArticleDetailProps> = ({
           className="mb-6 flex items-center space-x-2"
         >
           <ArrowLeft className="w-4 h-4" />
-          <span>Back to Articles</span>
+          <span>Kembali ke Artikel</span>
         </Button>
 
         <div className="mb-4">

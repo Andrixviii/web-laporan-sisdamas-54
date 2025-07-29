@@ -3,7 +3,6 @@ import React from 'react';
 interface Category {
   id: string;
   name: string;
-  count: number;
 }
 
 interface CategoryFilterProps {
@@ -27,7 +26,7 @@ export const CategoryFilter: React.FC<CategoryFilterProps> = ({
             : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
         }`}
       >
-        All Articles
+        Semua Artikel
       </button>
       {categories.map((category) => (
         <button
@@ -39,7 +38,7 @@ export const CategoryFilter: React.FC<CategoryFilterProps> = ({
               : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
           }`}
         >
-          {category.name} ({category.count})
+          {category.name}
         </button>
       ))}
     </div>
