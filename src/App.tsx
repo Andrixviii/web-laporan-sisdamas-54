@@ -80,7 +80,7 @@ function Home() {
                   {articles.length} Artikel
                 </span>
                 <span className="bg-[#CCC08B] px-3 py-1 rounded-full">
-                  {categories.length} Kategori
+                  {categories.length} Siklus
                 </span>
               </div>
             </section>
@@ -101,7 +101,7 @@ function Home() {
                 {searchQuery && (
                   <span>Search results for "{searchQuery}" • </span>
                 )}
-                Showing {filteredArticles.length} article{filteredArticles.length !== 1 ? 's' : ''}
+                Menampilkan {filteredArticles.length} Artikel{filteredArticles.length !== 1 ? 's' : ''}
               </p>
             </div>
 

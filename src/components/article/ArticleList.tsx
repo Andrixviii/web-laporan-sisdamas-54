@@ -20,7 +20,7 @@ export const ArticleList: React.FC<ArticleListProps> = ({
   if (articles.length === 0) {
     return (
       <div className="text-center py-12">
-        <p className="text-gray-500 text-lg">No articles found matching your criteria.</p>
+        <p className="text-gray-500 text-lg">Tidak Ada Artikel.</p>
       </div>
     );
   }
