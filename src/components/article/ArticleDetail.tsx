@@ -4,6 +4,12 @@ import { AuthorInfo } from './AuthorInfo';
 import { ArrowLeft, Share2, Bookmark, Heart } from 'lucide-react';
 import { Button } from '../ui/Button';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 interface ArticleDetailProps {
   article: Article;
   onBack: () => void;
@@ -36,16 +42,14 @@ export const ArticleDetail: React.FC<ArticleDetailProps> = ({
           {article.title}
         </h1>
 
-        <p className="text-xl text-gray-600 mb-6">
-          {article.excerpt}
-        </p>
+        <p className="text-xl text-gray-600 mb-6">{article.excerpt}</p>
 
         <div className="flex items-center justify-between">
           <AuthorInfo
             author={article.author}
             publishedAt={article.publishedAt}
           />
-          
+
           <div className="flex items-center space-x-2">
             <button className="p-2 text-gray-500 hover:text-red-500 transition-colors duration-200">
               <Heart className="w-5 h-5" />
@@ -60,16 +64,29 @@ export const ArticleDetail: React.FC<ArticleDetailProps> = ({
         </div>
       </div>
 
-      {/* Featured Image */}
+      {/* Gambar Slide dengan Autoplay */}
       <div className="mb-8">
-        <img
-          src={article.imageUrl}
-          alt={article.title}
-          className="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg"
-        />
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          navigation
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          loop={true}
+          className="w-full h-64 md:h-96 rounded-lg shadow-lg"
+        >
+          {article.imageUrl.map((url, i) => (
+            <SwiperSlide key={i}>
+              <img
+                src={url}
+                alt={`${article.title} - ${i + 1}`}
+                className="w-full h-full object-cover rounded-lg"
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
 
-      {/* Content */}
+      {/* Konten Artikel */}
       <div
         className="prose prose-lg max-w-none mb-8"
         dangerouslySetInnerHTML={{ __html: article.content }}
@@ -90,7 +107,7 @@ export const ArticleDetail: React.FC<ArticleDetailProps> = ({
         </div>
       </div>
 
-      {/* Author Bio */}
+      {/* Bio Penulis */}
       <div className="bg-gray-50 rounded-lg p-6 mb-8">
         <div className="flex items-start space-x-4">
           <img
@@ -102,9 +119,7 @@ export const ArticleDetail: React.FC<ArticleDetailProps> = ({
             <h3 className="text-lg font-semibold text-gray-900 mb-2">
               About {article.author.name}
             </h3>
-            <p className="text-gray-600">
-              {article.author.bio}
-            </p>
+            <p className="text-gray-600">{article.author.bio}</p>
           </div>
         </div>
       </div>

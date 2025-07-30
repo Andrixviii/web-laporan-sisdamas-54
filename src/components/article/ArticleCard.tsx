@@ -3,6 +3,12 @@ import { Article } from '../../types';
 import { AuthorInfo } from './AuthorInfo';
 import { Clock, ArrowRight } from 'lucide-react';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 interface ArticleCardProps {
   article: Article;
   onClick: (article: Article) => void;
@@ -24,18 +30,29 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
       className={`bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer group overflow-hidden ${cardClasses}`}
     >
       <div className="relative">
-        <img
-          src={article.imageUrl}
-          alt={article.title}
-          className={`w-full object-cover group-hover:scale-105 transition-transform duration-300 ${
-            featured ? 'h-64 md:h-80' : 'h-48'
-          }`}
-        />
+        <Swiper
+          modules={[Navigation, Pagination]}
+          navigation
+          pagination={{ clickable: true }}
+          className={`w-full ${featured ? 'h-64 md:h-80' : 'h-48'}`}
+        >
+          {article.imageUrl.map((url, i) => (
+            <SwiperSlide key={i}>
+              <img
+                src={url}
+                alt={`${article.title} - ${i + 1}`}
+                className="w-full h-full object-cover"
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+
         <div className="absolute top-4 left-4">
           <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
             {article.category}
           </span>
         </div>
+
         {article.featured && (
           <div className="absolute top-4 right-4">
             <span className="bg-yellow-500 text-white px-3 py-1 rounded-full text-sm font-medium">

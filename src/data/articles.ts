@@ -23,7 +23,7 @@ export const articles: Article[] = [
     category: 'Siklus 1',
     tags: ['Keberangkatan'],
     publishedAt: '2025-07-20',
-    imageUrl: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%201/CoverWomen.jpg?updatedAt=1753850406515', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%201/Cover.jpg?updatedAt=1753850405743', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%201/Isi.jpg?updatedAt=1753850405634'],
     featured: false
   },
   {
@@ -54,7 +54,7 @@ export const articles: Article[] = [
     category: 'Siklus 1',
     tags: ['Pembukaan'],
     publishedAt: '2025-07-21',
-    imageUrl: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%202/Pembukaan.JPG?updatedAt=1753849283435', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%202/Pemberangkatan_20250730_105807_0000.jpg?updatedAt=1753850051003', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%202/Pemberangkatan_20250730_095317_0000.png?updatedAt=1753850056483', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%202/Pemberangkatan_20250730_095401_0000.png?updatedAt=1753850063564'],
     featured: false
   },
   {
@@ -93,7 +93,7 @@ export const articles: Article[] = [
     category: 'Siklus 1',
     tags: ['Perencanaan', 'Observasi', 'Sosialisasi'],
     publishedAt: '2025-07-22',
-    imageUrl: 'https://images.pexels.com/photos/574077/pexels-photo-574077.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%203/10_20250730_095638_0001.png?updatedAt=1753851232095', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%203/Cover.png?updatedAt=1753851234337', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%203/13_20250730_100125_0001.png?updatedAt=1753851231725', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%203/Pemberangkatan_20250730_100418_0000.png?updatedAt=1753851226278', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%203/Pemberangkatan_20250730_100142_0000.png?updatedAt=1753851200246'],
     featured: false
   },
   {
@@ -157,7 +157,7 @@ export const articles: Article[] = [
     category: 'Siklus 1',
     tags: ['Rembug Warga', 'Sosialisasi', 'Pemetaan Sosial'],
     publishedAt: '2025-07-23',
-    imageUrl: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%204/Cover(1).png?updatedAt=1753852218242', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%204/Pemberangkatan_20250730_100752_0000.png?updatedAt=1753852217432', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%204/18_20250730_110054_0000.jpg?updatedAt=1753852202836', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%204/Pemberangkatan_20250730_100752_0001.png?updatedAt=1753852223942'],
     featured: false
   },
   {
@@ -220,7 +220,7 @@ export const articles: Article[] = [
     category: 'Siklus 1',
     tags: ['Refleksi', 'Konsolidasi', 'Fiksasi Program'],
     publishedAt: '2025-07-24',
-    imageUrl: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%205/10_20250730_095638_0001.png?updatedAt=1753852861578', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%205/Pemberangkatan_20250730_101032_0000.png?updatedAt=1753852752928'],
     featured: false
   },
     {
@@ -270,7 +270,7 @@ export const articles: Article[] = [
     category: 'Siklus 1',
     tags: ['Kolaborasi'],
     publishedAt: '2025-07-25',
-    imageUrl: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%206/Pemberangkatan_20250730_101317_0001.png?updatedAt=1753853511626', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%206/Pemberangkatan_20250730_101317_0002Lanang.png?updatedAt=1753853362590', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%206/Pemberangkatan_20250730_101317_0002.png?updatedAt=1753853358615', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%206/Cover.png?updatedAt=1753853360907', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%206/Cover(1).png?updatedAt=1753853350888'],
     featured: false
   },
       {
@@ -321,7 +321,7 @@ export const articles: Article[] = [
     category: 'Siklus 1',
     tags: ['Sosialisasi'],
     publishedAt: '2025-07-26',
-    imageUrl: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Cover.png?updatedAt=1753853804695', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Pemberangkatan_20250730_101829_0000.png?updatedAt=1753853807203'],
     featured: false
   },
 ];

@@ -11,7 +11,7 @@ export interface Article {
   category: string;
   tags: string[];
   publishedAt: string;
-  imageUrl: string;
+  imageUrl: string[];
   featured: boolean;
 }
 
