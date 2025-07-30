@@ -70,7 +70,7 @@ export const ArticleDetail: React.FC<ArticleDetailProps> = ({
           modules={[Navigation, Pagination, Autoplay]}
           navigation
           pagination={{ clickable: true }}
-          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          autoplay={{ delay: 2000, disableOnInteraction: false }}
           loop={true}
           className="w-full h-64 md:h-96 rounded-lg shadow-lg"
         >
