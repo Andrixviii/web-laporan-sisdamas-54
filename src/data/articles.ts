@@ -324,6 +324,373 @@ export const articles: Article[] = [
     imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Cover.png?updatedAt=1753853804695', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Pemberangkatan_20250730_101829_0000.png?updatedAt=1753853807203'],
     featured: false
   },
+
+  // Bagian siklus 2 sisdamas
+
+  {
+  id: '8',
+  title: 'Satu Irama, Satu Harapan',
+  excerpt: 'Sosialisasi senam, latihan bersama warga, dan rapat IRMA menjadi langkah strategis dalam membangun kesadaran kesehatan serta menjalin kolaborasi berkelanjutan dengan pemuda desa untuk pengembangan program edukatif dan ekonomi kreatif.',
+  content: `
+    <h3>SOSIALISASI KEGIATAN SENAM MINGGU PAGI</h3>
+    <p>Sosialisasi kepada masyarakat Desa Harumansari mengenai rencana kegiatan senam minggu pagi menandai dimulainya program kesehatan masyarakat yang berkelanjutan. Pendekatan door-to-door dan pemanfaatan jaringan tokoh masyarakat dalam sosialisasi menghasilkan respons yang sangat positif.</p>
+    <p>Antusiasme warga, terutama ibu-ibu, terhadap program senam menunjukkan awareness yang tinggi terhadap pentingnya kesehatan dan olahraga. Komitmen warga untuk berpartisipasi aktif setiap minggu pagi memberikan indikasi strong sustainability untuk program ini bahkan setelah periode KKN berakhir.</p>
+    
+    <h3>LATIHAN SENAM PERSIAPAN</h3>
+    <p>Latihan senam sebagai persiapan kegiatan minggu pagi berfungsi tidak hanya sebagai technical rehearsal, tetapi juga sebagai momentum untuk membangun chemistry antara instruktur mahasiswa dan peserta dari masyarakat. Latihan ini dipimpin oleh mahasiswa yang memiliki background olahraga dan diikuti dengan antusias oleh warga dari berbagai kalangan usia.</p>
+    <p>Proses latihan mengungkap kebutuhan untuk adaptasi gerakan senam sesuai dengan kondisi fisik dan usia peserta. Feedback konstruktif dari peserta mengenai preferensi jenis gerakan dan musik pengiring menjadi input berharga untuk optimalisasi program.</p>
+
+    
+    <h3>RAPAT IRMA (IKATAN REMAJA MASJID)</h3>
+    <p>
+    Partisipasi dalam rapat IRMA di Mesjid Al-Mu’minun pada sore hari membuka dimensi baru dalam pengembangan program dan networking dengan generasi muda lokal. Koordinasi dengan pemuda pemudi RW 08 menghasilkan insights berharga tentang:</br>
+    1. Dinamika Pemuda Lokal:
+    </br>
+    - Aspirasi dan concern generasi muda terhadap pembangunan desa</br>
+    - Potensi leadership dan activism yang belum optimal termanfaatkan</br>
+    - Kebutuhan capacity building untuk organizational management</br>
+    - Interest terhadap program-program inovatif dan teknologi</br>
+    2. Peluang Kolaborasi:</br>
+
+    - Partnership dalam program edukasi untuk anak-anak dan remaja</br>
+    - Kolaborasi dalam kegiatan sosial kemasyarakatan</br>
+    - Joint program untuk pengembangan ekonomi kreatif berbasis teknologi</br>
+    - Networking untuk sustainability program pasca-KKN</br>
+
+    4. Kaderisasi dan Sustainability:</br>
+
+    - Transfer knowledge dan skills kepada pemuda lokal</br>
+    - Establishment sistem yang dapat berjalan mandiri dengan leadership lokal</br>
+    - Mentoring relationship yang berlanjut beyond periode KKN</br>
+    - Documentation dan standardization program untuk replication</br>
+
+    Diskusi dalam rapat IRMA juga menghasilkan komitmen untuk kolaborasi dalam beberapa program strategis, termasuk pengembangan perpustakaan desa, program literasi digital, dan kegiatan pemberdayaan ekonomi berbasis komunitas.
+    </p>
+  `,
+  author: {
+    name: 'Alina Balqiya Rahma',
+    avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0869.jpg?updatedAt=1754147178258',
+    bio: 'Pendidikan Bahasa Arab'
+  },
+  category: 'Siklus 2',
+  tags: ['Sosialisasi'],
+  publishedAt: '2025-07-27',
+  imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Cover.png?updatedAt=1753853804695', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Pemberangkatan_20250730_101829_0000.png?updatedAt=1753853807203'],
+  featured: false
+  },
+
+  {
+    id: '9',
+    title: 'Satu Irama, Satu Harapan',
+    excerpt: 'Sosialisasi senam, latihan bersama warga, dan rapat IRMA menjadi langkah strategis dalam membangun kesadaran kesehatan serta menjalin kolaborasi berkelanjutan dengan pemuda desa untuk pengembangan program edukatif dan ekonomi kreatif.',
+    content: `
+      <h3>SOSIALISASI KEGIATAN SENAM MINGGU PAGI</h3>
+      <p>Sosialisasi kepada masyarakat Desa Harumansari mengenai rencana kegiatan senam minggu pagi menandai dimulainya program kesehatan masyarakat yang berkelanjutan. Pendekatan door-to-door dan pemanfaatan jaringan tokoh masyarakat dalam sosialisasi menghasilkan respons yang sangat positif.</p>
+      <p>Antusiasme warga, terutama ibu-ibu, terhadap program senam menunjukkan awareness yang tinggi terhadap pentingnya kesehatan dan olahraga. Komitmen warga untuk berpartisipasi aktif setiap minggu pagi memberikan indikasi strong sustainability untuk program ini bahkan setelah periode KKN berakhir.</p>
+      
+      <h3>LATIHAN SENAM PERSIAPAN</h3>
+      <p>Latihan senam sebagai persiapan kegiatan minggu pagi berfungsi tidak hanya sebagai technical rehearsal, tetapi juga sebagai momentum untuk membangun chemistry antara instruktur mahasiswa dan peserta dari masyarakat. Latihan ini dipimpin oleh mahasiswa yang memiliki background olahraga dan diikuti dengan antusias oleh warga dari berbagai kalangan usia.</p>
+      <p>Proses latihan mengungkap kebutuhan untuk adaptasi gerakan senam sesuai dengan kondisi fisik dan usia peserta. Feedback konstruktif dari peserta mengenai preferensi jenis gerakan dan musik pengiring menjadi input berharga untuk optimalisasi program.</p>
+
+      
+      <h3>RAPAT IRMA (IKATAN REMAJA MASJID)</h3>
+      <p>
+      Partisipasi dalam rapat IRMA di Mesjid Al-Mu’minun pada sore hari membuka dimensi baru dalam pengembangan program dan networking dengan generasi muda lokal. Koordinasi dengan pemuda pemudi RW 08 menghasilkan insights berharga tentang:</br>
+      1. Dinamika Pemuda Lokal:
+      </br>
+      - Aspirasi dan concern generasi muda terhadap pembangunan desa</br>
+      - Potensi leadership dan activism yang belum optimal termanfaatkan</br>
+      - Kebutuhan capacity building untuk organizational management</br>
+      - Interest terhadap program-program inovatif dan teknologi</br>
+      2. Peluang Kolaborasi:</br>
+
+      - Partnership dalam program edukasi untuk anak-anak dan remaja</br>
+      - Kolaborasi dalam kegiatan sosial kemasyarakatan</br>
+      - Joint program untuk pengembangan ekonomi kreatif berbasis teknologi</br>
+      - Networking untuk sustainability program pasca-KKN</br>
+
+      4. Kaderisasi dan Sustainability:</br>
+
+      - Transfer knowledge dan skills kepada pemuda lokal</br>
+      - Establishment sistem yang dapat berjalan mandiri dengan leadership lokal</br>
+      - Mentoring relationship yang berlanjut beyond periode KKN</br>
+      - Documentation dan standardization program untuk replication</br>
+
+      Diskusi dalam rapat IRMA juga menghasilkan komitmen untuk kolaborasi dalam beberapa program strategis, termasuk pengembangan perpustakaan desa, program literasi digital, dan kegiatan pemberdayaan ekonomi berbasis komunitas.
+      </p>
+    `,
+    author: {
+      name: 'Dodi Suryadi',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0886.jpg?updatedAt=1754147178026',
+      bio: 'Manajemen'
+    },
+    category: 'Siklus 2',
+    tags: ['Sosialisasi'],
+    publishedAt: '2025-07-28',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Cover.png?updatedAt=1753853804695', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Pemberangkatan_20250730_101829_0000.png?updatedAt=1753853807203'],
+    featured: false
+  },
+
+  {
+    id: '10',
+    title: 'Satu Irama, Satu Harapan',
+    excerpt: 'Sosialisasi senam, latihan bersama warga, dan rapat IRMA menjadi langkah strategis dalam membangun kesadaran kesehatan serta menjalin kolaborasi berkelanjutan dengan pemuda desa untuk pengembangan program edukatif dan ekonomi kreatif.',
+    content: `
+      <h3>SOSIALISASI KEGIATAN SENAM MINGGU PAGI</h3>
+      <p>Sosialisasi kepada masyarakat Desa Harumansari mengenai rencana kegiatan senam minggu pagi menandai dimulainya program kesehatan masyarakat yang berkelanjutan. Pendekatan door-to-door dan pemanfaatan jaringan tokoh masyarakat dalam sosialisasi menghasilkan respons yang sangat positif.</p>
+      <p>Antusiasme warga, terutama ibu-ibu, terhadap program senam menunjukkan awareness yang tinggi terhadap pentingnya kesehatan dan olahraga. Komitmen warga untuk berpartisipasi aktif setiap minggu pagi memberikan indikasi strong sustainability untuk program ini bahkan setelah periode KKN berakhir.</p>
+      
+      <h3>LATIHAN SENAM PERSIAPAN</h3>
+      <p>Latihan senam sebagai persiapan kegiatan minggu pagi berfungsi tidak hanya sebagai technical rehearsal, tetapi juga sebagai momentum untuk membangun chemistry antara instruktur mahasiswa dan peserta dari masyarakat. Latihan ini dipimpin oleh mahasiswa yang memiliki background olahraga dan diikuti dengan antusias oleh warga dari berbagai kalangan usia.</p>
+      <p>Proses latihan mengungkap kebutuhan untuk adaptasi gerakan senam sesuai dengan kondisi fisik dan usia peserta. Feedback konstruktif dari peserta mengenai preferensi jenis gerakan dan musik pengiring menjadi input berharga untuk optimalisasi program.</p>
+
+      
+      <h3>RAPAT IRMA (IKATAN REMAJA MASJID)</h3>
+      <p>
+      Partisipasi dalam rapat IRMA di Mesjid Al-Mu’minun pada sore hari membuka dimensi baru dalam pengembangan program dan networking dengan generasi muda lokal. Koordinasi dengan pemuda pemudi RW 08 menghasilkan insights berharga tentang:</br>
+      1. Dinamika Pemuda Lokal:
+      </br>
+      - Aspirasi dan concern generasi muda terhadap pembangunan desa</br>
+      - Potensi leadership dan activism yang belum optimal termanfaatkan</br>
+      - Kebutuhan capacity building untuk organizational management</br>
+      - Interest terhadap program-program inovatif dan teknologi</br>
+      2. Peluang Kolaborasi:</br>
+
+      - Partnership dalam program edukasi untuk anak-anak dan remaja</br>
+      - Kolaborasi dalam kegiatan sosial kemasyarakatan</br>
+      - Joint program untuk pengembangan ekonomi kreatif berbasis teknologi</br>
+      - Networking untuk sustainability program pasca-KKN</br>
+
+      4. Kaderisasi dan Sustainability:</br>
+
+      - Transfer knowledge dan skills kepada pemuda lokal</br>
+      - Establishment sistem yang dapat berjalan mandiri dengan leadership lokal</br>
+      - Mentoring relationship yang berlanjut beyond periode KKN</br>
+      - Documentation dan standardization program untuk replication</br>
+
+      Diskusi dalam rapat IRMA juga menghasilkan komitmen untuk kolaborasi dalam beberapa program strategis, termasuk pengembangan perpustakaan desa, program literasi digital, dan kegiatan pemberdayaan ekonomi berbasis komunitas.
+      </p>
+    `,
+    author: {
+      name: 'Ayi Husni Rofi\'l',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0913.jpg?updatedAt=1754147177479',
+      bio: 'Manajemen Pendidikan Islam'
+    },
+    category: 'Siklus 2',
+    tags: ['Sosialisasi'],
+    publishedAt: '2025-07-29',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Cover.png?updatedAt=1753853804695', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Pemberangkatan_20250730_101829_0000.png?updatedAt=1753853807203'],
+    featured: false
+  },
+
+  {
+    id: '11',
+    title: 'Satu Irama, Satu Harapan',
+    excerpt: 'Sosialisasi senam, latihan bersama warga, dan rapat IRMA menjadi langkah strategis dalam membangun kesadaran kesehatan serta menjalin kolaborasi berkelanjutan dengan pemuda desa untuk pengembangan program edukatif dan ekonomi kreatif.',
+    content: `
+      <h3>SOSIALISASI KEGIATAN SENAM MINGGU PAGI</h3>
+      <p>Sosialisasi kepada masyarakat Desa Harumansari mengenai rencana kegiatan senam minggu pagi menandai dimulainya program kesehatan masyarakat yang berkelanjutan. Pendekatan door-to-door dan pemanfaatan jaringan tokoh masyarakat dalam sosialisasi menghasilkan respons yang sangat positif.</p>
+      <p>Antusiasme warga, terutama ibu-ibu, terhadap program senam menunjukkan awareness yang tinggi terhadap pentingnya kesehatan dan olahraga. Komitmen warga untuk berpartisipasi aktif setiap minggu pagi memberikan indikasi strong sustainability untuk program ini bahkan setelah periode KKN berakhir.</p>
+      
+      <h3>LATIHAN SENAM PERSIAPAN</h3>
+      <p>Latihan senam sebagai persiapan kegiatan minggu pagi berfungsi tidak hanya sebagai technical rehearsal, tetapi juga sebagai momentum untuk membangun chemistry antara instruktur mahasiswa dan peserta dari masyarakat. Latihan ini dipimpin oleh mahasiswa yang memiliki background olahraga dan diikuti dengan antusias oleh warga dari berbagai kalangan usia.</p>
+      <p>Proses latihan mengungkap kebutuhan untuk adaptasi gerakan senam sesuai dengan kondisi fisik dan usia peserta. Feedback konstruktif dari peserta mengenai preferensi jenis gerakan dan musik pengiring menjadi input berharga untuk optimalisasi program.</p>
+
+      
+      <h3>RAPAT IRMA (IKATAN REMAJA MASJID)</h3>
+      <p>
+      Partisipasi dalam rapat IRMA di Mesjid Al-Mu’minun pada sore hari membuka dimensi baru dalam pengembangan program dan networking dengan generasi muda lokal. Koordinasi dengan pemuda pemudi RW 08 menghasilkan insights berharga tentang:</br>
+      1. Dinamika Pemuda Lokal:
+      </br>
+      - Aspirasi dan concern generasi muda terhadap pembangunan desa</br>
+      - Potensi leadership dan activism yang belum optimal termanfaatkan</br>
+      - Kebutuhan capacity building untuk organizational management</br>
+      - Interest terhadap program-program inovatif dan teknologi</br>
+      2. Peluang Kolaborasi:</br>
+
+      - Partnership dalam program edukasi untuk anak-anak dan remaja</br>
+      - Kolaborasi dalam kegiatan sosial kemasyarakatan</br>
+      - Joint program untuk pengembangan ekonomi kreatif berbasis teknologi</br>
+      - Networking untuk sustainability program pasca-KKN</br>
+
+      4. Kaderisasi dan Sustainability:</br>
+
+      - Transfer knowledge dan skills kepada pemuda lokal</br>
+      - Establishment sistem yang dapat berjalan mandiri dengan leadership lokal</br>
+      - Mentoring relationship yang berlanjut beyond periode KKN</br>
+      - Documentation dan standardization program untuk replication</br>
+
+      Diskusi dalam rapat IRMA juga menghasilkan komitmen untuk kolaborasi dalam beberapa program strategis, termasuk pengembangan perpustakaan desa, program literasi digital, dan kegiatan pemberdayaan ekonomi berbasis komunitas.
+      </p>
+    `,
+    author: {
+      name: 'Syntia Sri Wahyuni',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0831.jpg?updatedAt=1754147177799',
+      bio: 'Pendidikan Kimia'
+    },
+    category: 'Siklus 2',
+    tags: ['Sosialisasi'],
+    publishedAt: '2025-07-30',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Cover.png?updatedAt=1753853804695', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Pemberangkatan_20250730_101829_0000.png?updatedAt=1753853807203'],
+    featured: false
+  },
+
+  {
+    id: '12',
+    title: 'Satu Irama, Satu Harapan',
+    excerpt: 'Sosialisasi senam, latihan bersama warga, dan rapat IRMA menjadi langkah strategis dalam membangun kesadaran kesehatan serta menjalin kolaborasi berkelanjutan dengan pemuda desa untuk pengembangan program edukatif dan ekonomi kreatif.',
+    content: `
+      <h3>SOSIALISASI KEGIATAN SENAM MINGGU PAGI</h3>
+      <p>Sosialisasi kepada masyarakat Desa Harumansari mengenai rencana kegiatan senam minggu pagi menandai dimulainya program kesehatan masyarakat yang berkelanjutan. Pendekatan door-to-door dan pemanfaatan jaringan tokoh masyarakat dalam sosialisasi menghasilkan respons yang sangat positif.</p>
+      <p>Antusiasme warga, terutama ibu-ibu, terhadap program senam menunjukkan awareness yang tinggi terhadap pentingnya kesehatan dan olahraga. Komitmen warga untuk berpartisipasi aktif setiap minggu pagi memberikan indikasi strong sustainability untuk program ini bahkan setelah periode KKN berakhir.</p>
+      
+      <h3>LATIHAN SENAM PERSIAPAN</h3>
+      <p>Latihan senam sebagai persiapan kegiatan minggu pagi berfungsi tidak hanya sebagai technical rehearsal, tetapi juga sebagai momentum untuk membangun chemistry antara instruktur mahasiswa dan peserta dari masyarakat. Latihan ini dipimpin oleh mahasiswa yang memiliki background olahraga dan diikuti dengan antusias oleh warga dari berbagai kalangan usia.</p>
+      <p>Proses latihan mengungkap kebutuhan untuk adaptasi gerakan senam sesuai dengan kondisi fisik dan usia peserta. Feedback konstruktif dari peserta mengenai preferensi jenis gerakan dan musik pengiring menjadi input berharga untuk optimalisasi program.</p>
+
+      
+      <h3>RAPAT IRMA (IKATAN REMAJA MASJID)</h3>
+      <p>
+      Partisipasi dalam rapat IRMA di Mesjid Al-Mu’minun pada sore hari membuka dimensi baru dalam pengembangan program dan networking dengan generasi muda lokal. Koordinasi dengan pemuda pemudi RW 08 menghasilkan insights berharga tentang:</br>
+      1. Dinamika Pemuda Lokal:
+      </br>
+      - Aspirasi dan concern generasi muda terhadap pembangunan desa</br>
+      - Potensi leadership dan activism yang belum optimal termanfaatkan</br>
+      - Kebutuhan capacity building untuk organizational management</br>
+      - Interest terhadap program-program inovatif dan teknologi</br>
+      2. Peluang Kolaborasi:</br>
+
+      - Partnership dalam program edukasi untuk anak-anak dan remaja</br>
+      - Kolaborasi dalam kegiatan sosial kemasyarakatan</br>
+      - Joint program untuk pengembangan ekonomi kreatif berbasis teknologi</br>
+      - Networking untuk sustainability program pasca-KKN</br>
+
+      4. Kaderisasi dan Sustainability:</br>
+
+      - Transfer knowledge dan skills kepada pemuda lokal</br>
+      - Establishment sistem yang dapat berjalan mandiri dengan leadership lokal</br>
+      - Mentoring relationship yang berlanjut beyond periode KKN</br>
+      - Documentation dan standardization program untuk replication</br>
+
+      Diskusi dalam rapat IRMA juga menghasilkan komitmen untuk kolaborasi dalam beberapa program strategis, termasuk pengembangan perpustakaan desa, program literasi digital, dan kegiatan pemberdayaan ekonomi berbasis komunitas.
+      </p>
+    `,
+    author: {
+      name: 'Athirah Andalasiawati',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0939.jpg?updatedAt=1754147178218',
+      bio: 'Psikologi'
+    },
+    category: 'Siklus 2',
+    tags: ['Sosialisasi'],
+    publishedAt: '2025-07-31',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Cover.png?updatedAt=1753853804695', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Pemberangkatan_20250730_101829_0000.png?updatedAt=1753853807203'],
+    featured: false
+  },
+
+  {
+    id: '13',
+    title: 'Satu Irama, Satu Harapan',
+    excerpt: 'Sosialisasi senam, latihan bersama warga, dan rapat IRMA menjadi langkah strategis dalam membangun kesadaran kesehatan serta menjalin kolaborasi berkelanjutan dengan pemuda desa untuk pengembangan program edukatif dan ekonomi kreatif.',
+    content: `
+      <h3>SOSIALISASI KEGIATAN SENAM MINGGU PAGI</h3>
+      <p>Sosialisasi kepada masyarakat Desa Harumansari mengenai rencana kegiatan senam minggu pagi menandai dimulainya program kesehatan masyarakat yang berkelanjutan. Pendekatan door-to-door dan pemanfaatan jaringan tokoh masyarakat dalam sosialisasi menghasilkan respons yang sangat positif.</p>
+      <p>Antusiasme warga, terutama ibu-ibu, terhadap program senam menunjukkan awareness yang tinggi terhadap pentingnya kesehatan dan olahraga. Komitmen warga untuk berpartisipasi aktif setiap minggu pagi memberikan indikasi strong sustainability untuk program ini bahkan setelah periode KKN berakhir.</p>
+      
+      <h3>LATIHAN SENAM PERSIAPAN</h3>
+      <p>Latihan senam sebagai persiapan kegiatan minggu pagi berfungsi tidak hanya sebagai technical rehearsal, tetapi juga sebagai momentum untuk membangun chemistry antara instruktur mahasiswa dan peserta dari masyarakat. Latihan ini dipimpin oleh mahasiswa yang memiliki background olahraga dan diikuti dengan antusias oleh warga dari berbagai kalangan usia.</p>
+      <p>Proses latihan mengungkap kebutuhan untuk adaptasi gerakan senam sesuai dengan kondisi fisik dan usia peserta. Feedback konstruktif dari peserta mengenai preferensi jenis gerakan dan musik pengiring menjadi input berharga untuk optimalisasi program.</p>
+
+      
+      <h3>RAPAT IRMA (IKATAN REMAJA MASJID)</h3>
+      <p>
+      Partisipasi dalam rapat IRMA di Mesjid Al-Mu’minun pada sore hari membuka dimensi baru dalam pengembangan program dan networking dengan generasi muda lokal. Koordinasi dengan pemuda pemudi RW 08 menghasilkan insights berharga tentang:</br>
+      1. Dinamika Pemuda Lokal:
+      </br>
+      - Aspirasi dan concern generasi muda terhadap pembangunan desa</br>
+      - Potensi leadership dan activism yang belum optimal termanfaatkan</br>
+      - Kebutuhan capacity building untuk organizational management</br>
+      - Interest terhadap program-program inovatif dan teknologi</br>
+      2. Peluang Kolaborasi:</br>
+
+      - Partnership dalam program edukasi untuk anak-anak dan remaja</br>
+      - Kolaborasi dalam kegiatan sosial kemasyarakatan</br>
+      - Joint program untuk pengembangan ekonomi kreatif berbasis teknologi</br>
+      - Networking untuk sustainability program pasca-KKN</br>
+
+      4. Kaderisasi dan Sustainability:</br>
+
+      - Transfer knowledge dan skills kepada pemuda lokal</br>
+      - Establishment sistem yang dapat berjalan mandiri dengan leadership lokal</br>
+      - Mentoring relationship yang berlanjut beyond periode KKN</br>
+      - Documentation dan standardization program untuk replication</br>
+
+      Diskusi dalam rapat IRMA juga menghasilkan komitmen untuk kolaborasi dalam beberapa program strategis, termasuk pengembangan perpustakaan desa, program literasi digital, dan kegiatan pemberdayaan ekonomi berbasis komunitas.
+      </p>
+    `,
+    author: {
+      name: 'Aam Wafi Azizah',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0840.jpg?updatedAt=1754147177396',
+      bio: 'Pendidikan Matematika'
+    },
+    category: 'Siklus 2',
+    tags: ['Sosialisasi'],
+    publishedAt: '2025-08-01',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Cover.png?updatedAt=1753853804695', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Pemberangkatan_20250730_101829_0000.png?updatedAt=1753853807203'],
+    featured: false
+  },
+
+  {
+    id: '14',
+    title: 'Satu Irama, Satu Harapan',
+    excerpt: 'Sosialisasi senam, latihan bersama warga, dan rapat IRMA menjadi langkah strategis dalam membangun kesadaran kesehatan serta menjalin kolaborasi berkelanjutan dengan pemuda desa untuk pengembangan program edukatif dan ekonomi kreatif.',
+    content: `
+      <h3>SOSIALISASI KEGIATAN SENAM MINGGU PAGI</h3>
+      <p>Sosialisasi kepada masyarakat Desa Harumansari mengenai rencana kegiatan senam minggu pagi menandai dimulainya program kesehatan masyarakat yang berkelanjutan. Pendekatan door-to-door dan pemanfaatan jaringan tokoh masyarakat dalam sosialisasi menghasilkan respons yang sangat positif.</p>
+      <p>Antusiasme warga, terutama ibu-ibu, terhadap program senam menunjukkan awareness yang tinggi terhadap pentingnya kesehatan dan olahraga. Komitmen warga untuk berpartisipasi aktif setiap minggu pagi memberikan indikasi strong sustainability untuk program ini bahkan setelah periode KKN berakhir.</p>
+      
+      <h3>LATIHAN SENAM PERSIAPAN</h3>
+      <p>Latihan senam sebagai persiapan kegiatan minggu pagi berfungsi tidak hanya sebagai technical rehearsal, tetapi juga sebagai momentum untuk membangun chemistry antara instruktur mahasiswa dan peserta dari masyarakat. Latihan ini dipimpin oleh mahasiswa yang memiliki background olahraga dan diikuti dengan antusias oleh warga dari berbagai kalangan usia.</p>
+      <p>Proses latihan mengungkap kebutuhan untuk adaptasi gerakan senam sesuai dengan kondisi fisik dan usia peserta. Feedback konstruktif dari peserta mengenai preferensi jenis gerakan dan musik pengiring menjadi input berharga untuk optimalisasi program.</p>
+
+      
+      <h3>RAPAT IRMA (IKATAN REMAJA MASJID)</h3>
+      <p>
+      Partisipasi dalam rapat IRMA di Mesjid Al-Mu’minun pada sore hari membuka dimensi baru dalam pengembangan program dan networking dengan generasi muda lokal. Koordinasi dengan pemuda pemudi RW 08 menghasilkan insights berharga tentang:</br>
+      1. Dinamika Pemuda Lokal:
+      </br>
+      - Aspirasi dan concern generasi muda terhadap pembangunan desa</br>
+      - Potensi leadership dan activism yang belum optimal termanfaatkan</br>
+      - Kebutuhan capacity building untuk organizational management</br>
+      - Interest terhadap program-program inovatif dan teknologi</br>
+      2. Peluang Kolaborasi:</br>
+
+      - Partnership dalam program edukasi untuk anak-anak dan remaja</br>
+      - Kolaborasi dalam kegiatan sosial kemasyarakatan</br>
+      - Joint program untuk pengembangan ekonomi kreatif berbasis teknologi</br>
+      - Networking untuk sustainability program pasca-KKN</br>
+
+      4. Kaderisasi dan Sustainability:</br>
+
+      - Transfer knowledge dan skills kepada pemuda lokal</br>
+      - Establishment sistem yang dapat berjalan mandiri dengan leadership lokal</br>
+      - Mentoring relationship yang berlanjut beyond periode KKN</br>
+      - Documentation dan standardization program untuk replication</br>
+
+      Diskusi dalam rapat IRMA juga menghasilkan komitmen untuk kolaborasi dalam beberapa program strategis, termasuk pengembangan perpustakaan desa, program literasi digital, dan kegiatan pemberdayaan ekonomi berbasis komunitas.
+      </p>
+    `,
+    author: {
+      name: 'Triana Sari',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0830.jpg?updatedAt=1754147178123',
+      bio: 'Sejarah Peradaban Islam'
+    },
+    category: 'Siklus 2',
+    tags: ['Sosialisasi'],
+    publishedAt: '2025-08-02',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Cover.png?updatedAt=1753853804695', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%207/Pemberangkatan_20250730_101829_0000.png?updatedAt=1753853807203'],
+    featured: false
+  },
+
 ];
 
 export const categories = [

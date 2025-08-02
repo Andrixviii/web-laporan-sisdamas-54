@@ -6,138 +6,159 @@ import { ArticleDetail } from './components/article/ArticleDetail';
 import { CategoryFilter } from './components/ui/CategoryFilter';
 import { articles, categories } from './data/articles';
 import { Article } from './types';
+import { motion, AnimatePresence } from 'framer-motion';
 
-function Home() {
+function App() {
   const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
   const filteredArticles = useMemo(() => {
+    const keyword = searchQuery.toLowerCase();
+
     return articles.filter(article => {
-      const matchesSearch = article.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                           article.excerpt.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                           article.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()));
-      
-      const matchesCategory = !selectedCategory || 
-                             categories.find(cat => cat.id === selectedCategory)?.name === article.category;
-      
+      const matchesSearch =
+        article.title.toLowerCase().includes(keyword) ||
+        article.excerpt.toLowerCase().includes(keyword) ||
+        article.tags.some(tag => tag.toLowerCase().includes(keyword));
+
+      const matchesCategory =
+        !selectedCategory ||
+        categories.find(cat => cat.id === selectedCategory)?.name === article.category;
+
       return matchesSearch && matchesCategory;
     });
   }, [searchQuery, selectedCategory]);
 
-  const handleArticleClick = (article: Article) => {
-    setSelectedArticle(article);
-  };
-
-  const handleBackToList = () => {
-    setSelectedArticle(null);
-  };
-
+  const handleArticleClick = (article: Article) => setSelectedArticle(article);
+  const handleBackToList = () => setSelectedArticle(null);
   const handleSearch = (query: string) => {
     setSearchQuery(query);
     setSelectedArticle(null);
   };
-
   const handleCategorySelect = (categoryId: string | null) => {
     setSelectedCategory(categoryId);
     setSelectedArticle(null);
   };
 
-  if (selectedArticle) {
-    return (
-      <div className="min-h-screen bg-gray-50">
-        <Header onSearch={handleSearch} />
-        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <ArticleDetail
-            article={selectedArticle}
-            onBack={handleBackToList}
-          />
-        </main>
-        <Footer />
-      </div>
-    );
-  }
-
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Header onSearch={handleSearch} />
-      
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div>
-          <div>
-            {/* Hero Section */}
-            <section id='home' className="bg-gradient-to-r from-[#3D1E24] to-[#BF9364] rounded-lg text-white p-8 mb-8">
-              <h1 className="text-3xl md:text-4xl font-bold">
-                KKN SISDAMAS 54
-              </h1>
-              <p className='mb-4 text-xs'>Desa Harumansari, Kec. Kadungora, Kab. Garut</p>
+    <AnimatePresence mode="wait" initial={false}>
+      {selectedArticle ? (
+        <motion.div
+          key="detail"
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -40 }}
+          transition={{ duration: 0.4 }}
+          className="min-h-screen bg-gray-50"
+        >
+          <Header onSearch={handleSearch} />
+          <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <ArticleDetail article={selectedArticle} onBack={handleBackToList} />
+          </main>
+          <Footer />
+        </motion.div>
+      ) : (
+        <motion.div
+          key="list"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.4 }}
+          className="min-h-screen bg-gray-50"
+        >
+          <Header onSearch={handleSearch} />
+
+          <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            {/* Hero */}
+            <motion.section
+              id="home"
+              className="bg-gradient-to-r from-[#3D1E24] to-[#BF9364] rounded-lg text-white p-8 mb-8"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+            >
+              <h1 className="text-3xl md:text-4xl font-bold">KKN SISDAMAS 54</h1>
+              <p className="mb-4 text-xs">Desa Harumansari, Kec. Kadungora, Kab. Garut</p>
               <p className="text-base text-green-100 mb-6">
-                Platform untuk mendokumentasikan pengalaman
-                selama kegiatan Kuliah Kerja Nyata (KKN) di Desa Harumansari.
+                Platform untuk mendokumentasikan pengalaman selama kegiatan Kuliah Kerja Nyata (KKN) di Desa Harumansari.
               </p>
               <div className="flex flex-wrap gap-4 text-sm text-[#3D1E24]">
-                <span className="bg-[#CCC08B] px-3 py-1 rounded-full">
-                  {articles.length} Artikel
-                </span>
-                <span className="bg-[#CCC08B] px-3 py-1 rounded-full">
-                  {categories.length} Siklus
-                </span>
+                <span className="bg-[#CCC08B] px-3 py-1 rounded-full">{articles.length} Artikel</span>
+                <span className="bg-[#CCC08B] px-3 py-1 rounded-full">{categories.length} Siklus</span>
               </div>
-            </section>
+            </motion.section>
 
-            {/* Category Filter */}
-            <div className="mb-8">
+            {/* Filter */}
+            <motion.div
+              className="mb-8"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2, duration: 0.4 }}
+            >
               <h2 className="text-lg font-semibold text-gray-900 mb-4">Filter Berdasarkan Kategori</h2>
               <CategoryFilter
                 categories={categories}
                 selectedCategory={selectedCategory}
                 onCategorySelect={handleCategorySelect}
               />
-            </div>
+            </motion.div>
 
-            {/* Results Info */}
-            <div className="mb-6">
-              <p className="text-gray-600">
-                {searchQuery && (
-                  <span>Search results for "{searchQuery}" • </span>
-                )}
-                Menampilkan {filteredArticles.length} Artikel{filteredArticles.length !== 1 ? 's' : ''}
+            {/* Search Result */}
+            <motion.div
+              className="mb-6 text-gray-600"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.3 }}
+            >
+              {searchQuery && <span>Search results for "<strong>{searchQuery}</strong>" • </span>}
+              Menampilkan {filteredArticles.length} Artikel
+            </motion.div>
+
+            {/* List or Empty */}
+            {filteredArticles.length > 0 ? (
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.4 }}
+              >
+                <ArticleList articles={filteredArticles} onArticleClick={handleArticleClick} />
+              </motion.div>
+            ) : (
+              <motion.p
+                className="text-center text-gray-500 mt-8"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.4 }}
+              >
+                Tidak ditemukan artikel dengan kata kunci "{searchQuery}"
+              </motion.p>
+            )}
+          </main>
+
+          {/* Tentang Kami */}
+          <section id="tentang" className="mt-16 mb-16">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Tentang Kami</h2>
+              <p className="text-gray-700 leading-relaxed">
+                Kami adalah kelompok mahasiswa Kuliah Kerja Nyata (KKN) SISDAMAS 54 UIN Sunan Gunung Djati Bandung...
               </p>
+              <motion.img
+                src="https://ik.imagekit.io/kkn54harumansari/Lainnya/Dokumentasi.JPG?updatedAt=1753707035519"
+                alt="Dokumentasi"
+                className="p-7 w-full h-auto"
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.6 }}
+              />
             </div>
+          </section>
 
-            {/* Article List */}
-            <ArticleList
-              articles={filteredArticles}
-              onArticleClick={handleArticleClick}
-            />
-          </div>
-        </div>
-      </main>
-      
-      {/* tetangkami */}
-            <section id="tentang" className="mt-16 mb-16">
-                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                    <h2 className="text-2xl font-bold text-gray-900 mb-4">Tentang Kami</h2>
-                    <p className="text-gray-700 leading-relaxed">
-                        Kami adalah kelompok mahasiswa Kuliah Kerja Nyata (KKN) SISDAMAS 54 UIN Sunan Gunung Djati Bandung yang
-                        berdedikasi untuk mengembangkan dan mendokumentasikan kegiatan di Desa Harumansari,
-                        Kecamatan Kadungora, Kabupaten Garut.
-                    </p>
-                    <img
-                        src="https://ik.imagekit.io/kkn54harumansari/Lainnya/Dokumentasi.JPG?updatedAt=1753707035519"
-                        alt="Dokumentasi"
-                        className="p-7 w-full h-auto"
-                    />
-                    <p className="text-gray-600 mt-4">
-                        Melalui platform ini, kami ingin membagikan pengalaman, hasil karya, dan
-                        kontribusi yang telah kami lakukan selama masa pengabdian masyarakat.
-                    </p>
-                </div>
-            </section>
-
-      <Footer />
-    </div>
+          <Footer />
+        </motion.div>
+      )}
+    </AnimatePresence>
   );
 }
 
-export default Home;
+export default App;
