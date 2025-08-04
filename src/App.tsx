@@ -141,7 +141,9 @@ function App() {
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Tentang Kami</h2>
               <p className="text-gray-700 leading-relaxed">
-                Kami adalah kelompok mahasiswa Kuliah Kerja Nyata (KKN) SISDAMAS 54 UIN Sunan Gunung Djati Bandung...
+                 Kami adalah kelompok mahasiswa Kuliah Kerja Nyata (KKN) SISDAMAS 54 UIN Sunan Gunung Djati Bandung yang
+              berdedikasi untuk mengembangkan dan mendokumentasikan kegiatan di Desa Harumansari, Kecamatan Kadungora,
+              Kabupaten Garut.
               </p>
               <motion.img
                 src="https://ik.imagekit.io/kkn54harumansari/Lainnya/Dokumentasi.JPG?updatedAt=1753707035519"
@@ -151,6 +153,10 @@ function App() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6 }}
               />
+              <p className="text-gray-600 mt-4">
+                Melalui platform ini, kami ingin membagikan pengalaman, hasil karya, dan kontribusi yang telah kami
+                lakukan selama masa pengabdian masyarakat.
+              </p>
             </div>
           </section>
 

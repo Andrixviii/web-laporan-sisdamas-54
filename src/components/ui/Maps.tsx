@@ -35,13 +35,15 @@ const polygonArea: LatLngExpression[] = [
   [-7.0640, 107.9325],       // RW 07 timur laut
   [-7.061681, 107.932290],   // RW 09
   [-7.0600, 107.9329],       // RW 09 selatan
-  [-7.0570, 107.9335],       // RW 10 timur
-  [-7.0560, 107.9310],       // RW 10 tengah
+  [-7.0585, 107.9330],       // RW 10 timur laut
+  [-7.056187, 107.932106],   // RW 10 pusat
+  [-7.0568, 107.9303],       // RW 10 barat daya
   [-7.0575, 107.9288],       // RW 10 barat
   [-7.0605, 107.9280],       // RW 09 barat
   [-7.062695, 107.927118],   // RW 08
-  [-7.0650, 107.9285]        // RW 07 barat daya (menutup loop)
+  [-7.0650, 107.9285]        // RW 07 barat daya
 ];
+
 
 
 const center: LatLngExpression = [-7.061719, 107.930396];

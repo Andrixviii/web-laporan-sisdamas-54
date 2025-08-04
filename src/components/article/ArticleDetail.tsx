@@ -72,7 +72,7 @@ export const ArticleDetail: React.FC<ArticleDetailProps> = ({
           pagination={{ clickable: true }}
           autoplay={{ delay: 2000, disableOnInteraction: false }}
           loop={true}
-          className="w-full h-64 md:h-96 rounded-lg shadow-lg"
+          className="w-full h-64 md:h-[500px] rounded-lg shadow-lg"
         >
           {article.imageUrl.map((url, i) => (
             <SwiperSlide key={i}>
