@@ -6,7 +6,102 @@ import { ArticleDetail } from './components/article/ArticleDetail';
 import { CategoryFilter } from './components/ui/CategoryFilter';
 import { articles, categories } from './data/articles';
 import { Article } from './types';
+import { PhotoGrid } from './components/ui/PhotoGrid';
 import { motion, AnimatePresence } from 'framer-motion';
+
+
+const photos = [
+  {
+    id: '1',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2009-33-26%20Instagram.png?updatedAt=1755484477391',
+    alt: ''
+  },
+    {
+    id: '2',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2009-33-43%20Instagram.png?updatedAt=1755484477131',
+    alt: ''
+  },
+    {
+    id: '3',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2009-42-25%20Instagram.png?updatedAt=1755484967438',
+    alt: ''
+  },
+    {
+    id: '4',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2009-46-34%20Instagram.png?updatedAt=1755485275283',
+    alt: ''
+  },
+    {
+    id: '5',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2009-46-55%20Instagram.png?updatedAt=1755485274909',
+    alt: ''
+  },
+    {
+    id: '6',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2009-47-05%20Instagram.png?updatedAt=1755485274988',
+    alt: ''
+  },
+    {
+    id: '7',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2009-53-26%20Instagram.png?updatedAt=1755485665734',
+    alt: ''
+  },
+    {
+    id: '8',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2009-53-43%20Instagram.png?updatedAt=1755485663596',
+    alt: ''
+  },
+    {
+    id: '9',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2009-53-53%20Instagram.png?updatedAt=1755485665549',
+    alt: ''
+  },
+    {
+    id: '10',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2009-57-13%20Instagram.png?updatedAt=1755485897395',
+    alt: ''
+  },
+    {
+    id: '11',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2009-57-33%20Instagram.png?updatedAt=1755485894240',
+    alt: ''
+  },
+    {
+    id: '12',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2009-57-45%20Instagram.png?updatedAt=1755485898481',
+    alt: ''
+  },
+    {
+    id: '13',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2010-00-12%20Instagram.png?updatedAt=1755486072895',
+    alt: ''
+  },
+    {
+    id: '14',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2010-00-25%20Instagram.png?updatedAt=1755486069852',
+    alt: ''
+  },
+    {
+    id: '15',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2010-00-36%20Instagram.png?updatedAt=1755486071921',
+    alt: ''
+  },
+    {
+    id: '16',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2010-07-42%20Instagram.png?updatedAt=1755486529930',
+    alt: ''
+  },
+    {
+    id: '17',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2010-08-04%20Instagram.png?updatedAt=1755486533845',
+    alt: ''
+  },
+    {
+    id: '18',
+    url: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Feed/Screenshot%202025-08-18%20at%2010-08-12%20Instagram.png?updatedAt=1755486521176',
+    alt: ''
+  },
+];
 
 function App() {
   const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
@@ -157,6 +252,13 @@ function App() {
                 Melalui platform ini, kami ingin membagikan pengalaman, hasil karya, dan kontribusi yang telah kami
                 lakukan selama masa pengabdian masyarakat.
               </p>
+            </div>
+          </section>
+
+          <section id='team' className="mt-16 mb-16">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Tim Kami</h2>
+              <PhotoGrid photos={photos} />
             </div>
           </section>
 

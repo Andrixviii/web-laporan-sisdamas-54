@@ -14,6 +14,7 @@ export const Header: React.FC<HeaderProps> = ({ onSearch }) => {
     { name: 'Home', href: '#home' },
     { name: 'Artikel', href: '#artikel' },
     { name: 'Tentang Kami', href: '#tentang' },
+    { name: 'Tim Kami', href: '#team' },
   ];
 
   return (

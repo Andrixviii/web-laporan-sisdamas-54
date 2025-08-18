@@ -65,7 +65,7 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-gray-600 mt-8 pt-5 text-center text-gray-400">
-          <p>&copy; 2025 KKN 54. All rights reserved.</p>
+          <p>&copy; 2025 KKN Sisdamas 54 UIN SGD. All rights reserved.</p>
         </div>
       </div>
     </footer>

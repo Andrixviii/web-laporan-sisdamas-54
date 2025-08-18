@@ -412,7 +412,7 @@ export const articles: Article[] = [
     category: 'Siklus 2',
     tags: ['Sosialisasi'],
     publishedAt: '2025-07-30',
-    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-2/Day%206/7_20250803_212921_0000.png?updatedAt=1754237605638'],
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-2/Day%206/7_20250803_212921_0000.png?updatedAt=1754237605638', 'https://ik.imagekit.io/kkn54harumansari/Siklus-2/Day%203/WhatsApp%20Image%202025-07-30%20at%2017.37.48_4b244e53.jpg?updatedAt=1755487799803'],
     featured: false
   },
 
