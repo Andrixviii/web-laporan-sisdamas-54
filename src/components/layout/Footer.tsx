@@ -33,7 +33,7 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Kategori</h3>
             <ul className="space-y-2">
-              {['Siklus 1', 'Siklus 2', 'Siklus 3', 'Siklus 4', 'Siklus 5'].map((category) => (
+              {['Siklus 1', 'Siklus 2', 'Siklus 3', 'Siklus 4'].map((category) => (
                 <li key={category}>
                   <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
                     {category}

@@ -220,7 +220,7 @@ export const articles: Article[] = [
     category: 'Siklus 1',
     tags: ['Refleksi', 'Konsolidasi', 'Fiksasi Program'],
     publishedAt: '2025-07-24',
-    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%205/10_20250730_095638_0001.png?updatedAt=1753852861578', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%205/Pemberangkatan_20250730_101032_0000.png?updatedAt=1753852752928'],
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%205/10_20250730_095638_0001.png?updatedAt=1753852861578', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%205/Pemberangkatan_20250730_101032_0000.png?updatedAt=1753852752928', 'https://ik.imagekit.io/kkn54harumansari/Siklus-1/Day%205/WhatsApp%20Image%202025-07-30%20at%2017.37.48_4b244e53.jpg?updatedAt=1754755865261'],
     featured: false
   },
     {
@@ -492,6 +492,195 @@ export const articles: Article[] = [
 
   // bagian Siklus 3 sisdamas
 
+    {
+    id: '14',
+    title: 'Semarak Kemerdekaan di Desa Harumansari: Lomba, Kebersamaan, dan Evaluasi',
+    excerpt: 'Desa Harumansari dipenuhi semangat kemerdekaan dengan pemasangan umbul-umbul, lomba puisi, pembacaan teks proklamasi, hingga cerdas cermat ibu-ibu yang berlangsung meriah. Sorak tawa dan semangat kebangsaan mewarnai hari penuh kebersamaan, ditutup dengan evaluasi panitia untuk memperkuat program KKN ke depan.',
+    content: `
+    <p>
+    Desa Harumansari dipenuhi suasana semangat kemerdekaan. Pagi-pagi sekali, warga bersama panitia mulai pemasangan umbul-umbul di sepanjang jalan utama desa. Bendera merah putih, spanduk, dan hiasan warna-warni dipasang rapi, membuat desa tampak semakin meriah. Udara pagi terasa segar, ditambah kibaran bendera yang menambah rasa bangga akan kemerdekaan. </br>
+
+    Menjelang siang, dilanjut dengan kegiatan lomba puisi dan pembacaan teks proklamasi. dimana beberapa anggota KKN 54 berpartisipasi sebagai juri di antaranya Indie Jannatulma’wa. H dan Dhiya Ulhaq sebagai juri Lomba puisi dan Athallah Naufal sebagai juri Lomba pembacaan teks proklamasi. Anak-anak dan remaja tampil bergantian, menyampaikan puisi bertema perjuangan dengan penuh penghayatan. Tepuk tangan penonton terdengar riuh, apalagi ketika pembacaan proklamasi dibawakan dengan lantang dan penuh semangat, seolah menghidupkan kembali momen bersejarah 17 Agustus 1945.</br>
+
+    setelah itu acara dilanjutkan dengan lomba cerdas cermat yang berlangsung seru. Peserta ibu-ibu saling adu pengetahuan tentang sejarah kemerdekaan, wawasan kebangsaan, dan pengetahuan umum. Sorak-sorai dan tawa pecah setiap kali ada jawaban unik atau mengejutkan dari para peserta.</br>
+
+    Sehari penuh ini bukan hanya soal perlombaan dan hiasan, tetapi juga tentang kebersamaan, gotong royong, dan semangat mencintai tanah air.</br>
+
+    Menjelang malam, seluruh panitia berkumpul untuk evaluasi mingguan. Semua kegiatan hari ini dibahas dengan penuh kekeluargaan. Panitia saling memberi masukan, mencatat hal-hal yang sudah berjalan baik, dan merencanakan perbaikan untuk proker-proker selanjutnya.</br>
+    </p>
+  `,
+    author: {
+      name: 'Athallah Naufal',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/Athallah.jpg?updatedAt=1753798531724',
+      bio: 'Sosiologi'
+    },
+    category: 'Siklus 3',
+    tags: [],
+    publishedAt: '2025-08-03',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%201/27_20250809_200158_0002.png?updatedAt=1754756871683', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%201/28_20250809_200158_0003.png?updatedAt=1754756871647', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%201/26_20250809_200158_0001.png?updatedAt=1754756869680', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%201/25_20250809_200157_0000.png?updatedAt=1754756871786', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%201/29_20250809_200158_0004.png?updatedAt=1754756869124'],
+    featured: false
+  },
+
+  {
+  id: '15',
+  title: 'Kebersamaan KKN Sisdamas 54: Produksi Krupuk Asoy, Monitoring DPL, dan Lomba 17an',
+  excerpt: 'Senin, 4 Agustus 2025, KKN Sisdamas 54 mengisi hari dengan kegiatan produktif dan penuh makna. Dimulai dengan pembuatan krupuk “Asoy” sebagai bagian dari program UMKM desa, dilanjutkan monitoring oleh dosen pembimbing lapangan Dr. H. Uu Nurul Huda, S.Ag., SH., MH., serta diakhiri dengan persiapan lomba TTS untuk memeriahkan HUT RI ke-80.',
+  content: `
+    <p>
+    Senin, 4 Agustus 2025, menjadi hari yang penuh aktivitas bagi tim KKN Sisdamas 54 di Desa Harumansari. Pagi hari dimulai dengan kegiatan pembuatan produk UMKM lokal berupa krupuk “Asoy”. Proses produksi dilakukan bersama warga, mulai dari pencampuran bahan, pencetakan adonan, hingga penjemuran. Aktivitas ini tidak hanya menghasilkan produk makanan, tetapi juga memberikan pengalaman berharga mengenai kewirausahaan berbasis potensi desa.</br>
+
+    Menjelang siang, tim KKN mendapatkan kunjungan dari dosen pembimbing lapangan, Dr. H. Uu Nurul Huda, S.Ag., SH., MH. Dalam kesempatan ini, beliau melakukan monitoring untuk memastikan seluruh program kerja berjalan dengan baik. Diskusi berlangsung hangat, penuh arahan, masukan, serta apresiasi terhadap kegiatan yang sudah dilaksanakan. Monitoring ini menjadi motivasi tambahan bagi tim untuk lebih semangat menjalankan program hingga akhir masa KKN.</br>
+
+    Sore harinya, kegiatan dilanjutkan dengan mempersiapkan perlombaan 17 Agustus, khususnya lomba teka-teki silang (TTS) yang akan diikuti oleh warga. Tim bersama panitia lokal menata tempat, menyiapkan perlengkapan, serta merancang pertanyaan TTS yang edukatif sekaligus menyenangkan. Suasana sore terasa penuh semangat gotong royong, menandai persiapan menuju perayaan HUT RI yang semakin dekat.</br>
+
+    Hari ini menjadi bukti nyata bahwa kegiatan KKN bukan hanya soal program kerja, tetapi juga tentang membangun kebersamaan, kreativitas, dan semangat nasionalisme bersama masyarakat desa. </br>
+    </p>
+  `,
+  author: {
+    name: 'Muhamad Nopid Andriansyah',
+    avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0895.jpg?updatedAt=1754147177634',
+    bio: 'Teknik Informatika'
+  },
+  category: 'Siklus 3',
+  tags: [],
+  publishedAt: '2025-08-04',
+  imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%202/30_20250809_202555_0000.png?updatedAt=1754756911059', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%202/31_20250809_202555_0001.png?updatedAt=1754756909743', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%202/33_20250809_202555_0003.png?updatedAt=1754756910215', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%202/32_20250809_202555_0002.png?updatedAt=1754756911461'],
+  featured: false
+  },
+
+  {
+    id: '16',
+    title: 'Sosialisasi Seminar Bullying dan Lomba Ranking 1 Meriahkan Desa Harumansari',
+    excerpt: 'Selasa, 5 Agustus 2025, KKN Sisdamas 54 melaksanakan sosialisasi seminar bullying sebagai bentuk edukasi pencegahan kekerasan sejak dini. Sore harinya, suasana desa semakin meriah dengan lomba Ranking 1 yang diikuti pemuda dan anak-anak dalam rangka HUT RI ke-80.',
+    content: `
+      <p>
+      Selasa, 5 Agustus 2025, tim KKN Sisdamas 54 kembali mengisi hari dengan kegiatan yang bermanfaat sekaligus menghibur. Pagi hingga siang hari dilaksanakan sosialisasi seminar bullying, sebuah langkah awal menuju penyelenggaraan seminar resmi yang akan membahas pencegahan bullying dan kekerasan seksual. Kegiatan ini bertujuan untuk memberikan pemahaman kepada masyarakat, terutama kalangan remaja dan orang tua, mengenai pentingnya menjaga lingkungan yang aman, saling menghargai, dan bebas dari kekerasan. Antusiasme peserta terlihat dari pertanyaan dan diskusi yang hidup selama sesi sosialisasi berlangsung. </br>
+
+      Menjelang sore, suasana desa berubah menjadi lebih semarak dengan digelarnya lomba Ranking 1, salah satu rangkaian kegiatan perayaan HUT RI ke-80. Lomba ini diikuti oleh anak-anak dan remaja yang saling adu cepat dan tepat dalam menjawab pertanyaan seputar pengetahuan umum, sejarah, dan kebangsaan. Gelak tawa dan semangat persaingan sehat membuat suasana menjadi hangat dan penuh keceriaan.</br>
+
+      Hari ini menunjukkan bahwa kegiatan KKN tidak hanya fokus pada edukasi dan penyadaran masyarakat, tetapi juga menghadirkan hiburan dan semangat kebangsaan yang mempererat kebersamaan seluruh warga desa.</br>
+      </p>
+    `,
+    author: {
+      name: 'Achmad Haikal Azumardi Azra',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/Haikal.jpg?updatedAt=1753804445384',
+      bio: 'Ilmu Al-qur\'an dan Tafsir'
+    },
+    category: 'Siklus 3',
+    tags: [],
+    publishedAt: '2025-08-05',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%203/34_20250809_203359_0000.png?updatedAt=1754756936494', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%203/35_20250809_203359_0001.png?updatedAt=1754756937168'],
+    featured: false
+  },
+
+  {
+    id: '17',
+    title: 'Kolaborasi KKN dan Warga: UMKM, Pengajian, dan Gotong Royong',
+    excerpt: 'Rabu, 6 Agustus 2025, KKN Sisdamas 54 mengisi hari dengan beragam kegiatan produktif dan kebersamaan. Dimulai dari eksekusi program UMKM dengan pembuatan produk “Asoy” dan “Mie Jebew” hingga persiapan HKI dan QRIS, dilanjutkan pengajian bersama warga RW 08, gotong royong persiapan HUT RI, dan diakhiri mengajar anak-anak di MDTA.',
+    content: `
+      <p>
+      Kegiatan pada hari Rabu, 06 Agustus 2025, dimulai pukul 09.00 WIB dengan pelaksanaan program eksekusi UMKM yang diikuti oleh seluruh anggota. Kegiatan ini meliputi pembuatan produk “Asoy” berupa sosialisasi perencanaan produk menuju pendaftaran Hak Kekayaan Intelektual (HKI), pendampingan pembuatan mie “Goku” sesuai referensi proses dari Google, pembuatan QRIS untuk transaksi digital, penyusunan daftar menu, serta penataan ulang banner promosi agar lebih menarik. </br>
+
+      Pada pukul 14.00 WIB, seluruh anggota mengikuti pengajian bersama masyarakat RW 08. Kegiatan ini diisi oleh penceramah Haikal dan Wafi yang menyampaikan materi keagamaan dan motivasi hidup. Di sela acara, perwakilan mahasiswa KKN berdiskusi dengan Bu RW mengenai rencana pelaksanaan tamasya untuk anak-anak RA Tjokroaminoto.</br>
+
+      Memasuki sore hari pukul 16.00 WIB, para pemuda desa bersama mahasiswa KKN melaksanakan gotong royong untuk mempersiapkan perlengkapan perayaan HUT RI, seperti membersihkan area dan menata lokasi acara.</br>
+
+      Kegiatan hari itu ditutup setelah Maghrib, pukul 18.00 WIB, dengan mengajar di MDTA. Pengajaran diberikan oleh Fadhila, Wafi, Dhiya, dan Athalla yang membawakan materi keagamaan kepada anak-anak.</br>
+      </p>
+    `,
+    author: {
+      name: 'Syifa Aprilia Salsabila',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/Sipa.jpg?updatedAt=1753797709773',
+      bio: 'Ilmu Komunikasi Jurnalistik'
+    },
+    category: 'Siklus 3',
+    tags: [],
+    publishedAt: '2025-08-06',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%204/36_20250809_204303_0000.png?updatedAt=1754756966708', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%204/38_20250809_204303_0002.png?updatedAt=1754756966835', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%204/37_20250809_204303_0001.png?updatedAt=1754756966502', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%204/39_20250809_204303_0003.png?updatedAt=1754756966629'],
+    featured: false
+  },
+
+  {
+    id: '18',
+    title: 'Dari Kelas ke Panggung: Mengajar dan Merayakan Semangat 17 Agustus',
+    excerpt: 'Kamis, 7 Agustus 2025 menjadi hari penuh warna bagi KKN Sisdamas 54 bersama masyarakat desa. Pagi dimulai dengan kegiatan mengajar di sekolah dasar setempat, dan konfirmasi tentang seminar bullying dan kekerasan seksual, kita mengajar dengan memberikan materi yang interaktif dan memotivasi siswa untuk terus belajar. Sore hingga malam, suasana berubah menjadi meriah dengan lomba proklamasi dan pembacaan puisi oleh ibu-ibu PKK, memperkuat rasa persatuan dan kebanggaan sebagai warga negara Indonesia.',
+    content: `
+      <p>
+      Pagi hari ini, tim KKN Sisdamas 54 memulai aktivitas di MTS Tcokroaminoto Panyingkiran. Kami membawakan materi pembelajaran dengan metode yang menyenangkan, menggabungkan permainan edukatif dan cerita inspiratif. Antusiasme siswa terlihat dari senyum dan partisipasi mereka selama kegiatan berlangsung. Mengajar tidak hanya memberi ilmu, tapi juga menumbuhkan rasa percaya diri anak-anak untuk berani mengungkapkan pendapat. </br>
+
+      Dan di susul dengan konfirmasi terkait seminar bullying dan kekerasan seksual yang dimana seminar tersebut akan bertempat di Mi Tcokroaminoto panyingkiran, pada hari Selasa, 12 Agustus 2025.</br>
+
+      Menjelang sore, suasana desa dipenuhi keceriaan. Kami berkolaborasi dengan ibu-ibu PKK untuk menggelar lomba proklamasi dan pembacaan puisi. Tawa dan tepuk tangan mengiringi setiap penampilan, mulai dari pembacaan teks proklamasi yang penuh penghayatan hingga puisi yang menyentuh hati tentang perjuangan bangsa dan peran ibu dalam keluarga. Acara ini bukan hanya hiburan, tetapi juga pengingat akan perjuangan para pahlawan dan pentingnya peran perempuan dalam membangun bangsa.</br>
+
+      Hari ini menjadi bukti bahwa mengajar, mencegah kekerasan, dan merayakan kemerdekaan bisa berpadu dalam satu rangkaian kegiatan. Semangat kebersamaan, kepedulian, dan cinta tanah air terasa mengalir di setiap detiknya.</br>
+      </p>
+    `,
+    author: {
+      name: 'Triana Sari',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0830.jpg?updatedAt=1754147178123',
+      bio: 'Sejarah Peradaban Islam'
+    },
+    category: 'Siklus 3',
+    tags: [],
+    publishedAt: '2025-08-07',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%205/41_20250809_205524_0001.png?updatedAt=1754757028818', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%205/40_20250809_205524_0000.png?updatedAt=1754757028743', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%205/42_20250809_205524_0002.png?updatedAt=1754757027818', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%205/43_20250809_205524_0003.png?updatedAt=1754757027775'],
+    featured: false
+  },
+
+  {
+    id: '19',
+    title: 'Harmoni Kegiatan KKN: Religi, Kebersihan, dan Kebersamaan',
+    excerpt: 'Jumat, 8 Agustus 2025, KKN Sisdamas 54 menjalani hari yang penuh kebersamaan dan kekompakan bersama warga desa. Pagi dimulai dengan kajian tafsir Al-Qur’an selepas Subuh, diikuti kegiatan jumat bersih yang melibatkan seluruh elemen masyarakat. Siang harinya, tim mengadakan rapat penyusunan program kerja untuk kelancaran kegiatan mendatang. Menjelang sore, suasana desa semakin meriah dengan lomba agustusan teka-teki silang khusus ibu-ibu, yang memadukan hiburan dan edukasi dalam satu kegiatan.',
+    content: `
+      <p>
+      Pagi ini, suasana desa terasa khidmat dengan kajian tafsir Al-Qur’an yang dilaksanakan selepas Salat Subuh. Kegiatan ini menjadi momen untuk memperdalam pemahaman ayat-ayat suci sekaligus mengawali hari dengan keberkahan. Antusiasme masyarakat terlihat dari jumlah peserta yang hadir dan keaktifan dalam berdiskusi. </br>
+
+      Pukul 07.00-09.00 WIB, seluruh anggota KKN melaksanakan program jumat bersih. Dengan semangat gotong royong, kami membersihkan area masjid, dan fasilitas umum. Aktivitas ini tidak hanya menjaga kebersihan lingkungan, tetapi juga mempererat hubungan antara mahasiswa KKN.</br>
+
+      Usai kegiatan bersih-bersih, kelompok kami mengadakan rapat penyusunan program kerja. Dalam rapat ini, dibahas rencana kegiatan untuk pekan mendatang, termasuk teknis pelaksanaan acara-acara yang sudah direncanakan bersama warga. Diskusi berjalan dinamis, menghasilkan beberapa ide kreatif untuk mengoptimalkan kontribusi KKN di desa.</br>
+
+      Menjelang sore, suasana desa berubah menjadi hangat dan ceria dengan digelarnya lomba agustusan teka-teki silang khusus untuk ibu-ibu. Gelak tawa dan sorak-sorai terdengar saat para peserta saling berpacu menjawab pertanyaan. Lomba ini bukan hanya menghibur, tetapi juga mengasah pengetahuan umum dan kerja sama antarwarga.</br>
+
+      Hari ini menjadi bukti bahwa kegiatan religius, kepedulian lingkungan, perencanaan program, dan hiburan bisa terjalin harmonis. KKN Sisdamas 54 bersama masyarakat desa membuktikan bahwa kebersamaan adalah kunci untuk membangun lingkungan yang sehat, cerdas, dan penuh kehangatan.</br>
+      </p>
+    `,
+    author: {
+      name: 'Syintia Sri Wahyuni',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0831.jpg?updatedAt=1754147177799',
+      bio: 'Pendidikan Kimia'
+    },
+    category: 'Siklus 3',
+    tags: [],
+    publishedAt: '2025-08-08',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%206/44_20250809_210420_0000.png?updatedAt=1754757060045', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%206/46_20250809_210420_0002.png?updatedAt=1754757061429', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%206/45_20250809_210420_0001.png?updatedAt=1754757059877', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%206/47_20250809_210420_0003.png?updatedAt=1754757061474'],
+    featured: false
+  },
+
+  {
+    id: '19',
+    title: 'Sinergi Kesehatan, Sosial, dan Budaya dalam Pemberdayaan Masyarakat di  desa Harumansari',
+    excerpt: 'Kegiatan KKN di Desa Harumansari mencerminkan sinergi antara aspek kesehatan, sosial, dan budaya. Program senam pagi disambut antusias oleh warga, pemetaan sosial dilakukan untuk memahami kondisi masyarakat secara menyeluruh, dan lomba 17 Agustusan mempererat nilai kebersamaan serta nasionalisme anak-anak desa.',
+    content: `
+      <h3>POSYANDU</h3>
+      <p>
+      Mahasiswa KKN melaksanakan kegiatan Posyandu di desa Harumansari. Kegiatan ini berlangsung sejak pagi, dimulai dengan penimbangan balita, pemeriksaan kesehatan, serta pemberian vitamin dan imunisasi. Mahasiswa KKN membantu kader posyandu dalam pendataan dan pelayanan, sekaligus memberikan edukasi singkat kepada para ibu mengenai gizi seimbang untuk tumbuh kembang anak.
+      </p>
+      <h3>Lomba 17 Agustusan: Lomba LCC Ibu-Ibu</h3>
+      <p>
+      Siang harinya, kegiatan dilanjutkan dengan Lomba 17 Agustusan khusus untuk ibu-ibu berupa Lomba Cerdas Cermat (LCC). Lomba ini menguji wawasan peserta seputar pengetahuan umum, kesehatan keluarga, dan sejarah kemerdekaan. Suasana lomba berlangsung meriah, penuh canda dan tawa, namun tetap kompetitif. Melalui kegiatan ini, selain mempererat silaturahmi antarwarga, semangat kebersamaan dan kecintaan pada tanah air pun semakin terasa.
+      </p>
+    `,
+    author: {
+      name: 'Alina Balqiya Rahma',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0869.jpg?updatedAt=1754147178258',
+      bio: 'Pendidikan Bahasa Arab'
+    },
+    category: 'Siklus 3',
+    tags: [],
+    publishedAt: '2025-08-09',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%207/Senam%20pagi%20bersama%20masyarakat_20250809_210853_0000.png?updatedAt=1754757090816', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%207/Senam%20pagi%20bersama%20masyarakat_20250809_210853_0001.png?updatedAt=1754757090728'],
+    featured: false
+  },
 ];
 
 export const categories = [
