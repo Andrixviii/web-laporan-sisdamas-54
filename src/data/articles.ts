@@ -657,7 +657,7 @@ export const articles: Article[] = [
   },
 
   {
-    id: '19',
+    id: '20',
     title: 'Sinergi Kesehatan, Sosial, dan Budaya dalam Pemberdayaan Masyarakat di  desa Harumansari',
     excerpt: 'Kegiatan KKN di Desa Harumansari mencerminkan sinergi antara aspek kesehatan, sosial, dan budaya. Program senam pagi disambut antusias oleh warga, pemetaan sosial dilakukan untuk memahami kondisi masyarakat secara menyeluruh, dan lomba 17 Agustusan mempererat nilai kebersamaan serta nasionalisme anak-anak desa.',
     content: `
@@ -681,6 +681,320 @@ export const articles: Article[] = [
     imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%207/Senam%20pagi%20bersama%20masyarakat_20250809_210853_0000.png?updatedAt=1754757090816', 'https://ik.imagekit.io/kkn54harumansari/Siklus-3/Day%207/Senam%20pagi%20bersama%20masyarakat_20250809_210853_0001.png?updatedAt=1754757090728'],
     featured: false
   },
+
+
+  // siklus 4 minggu ke 1
+  {
+    id: '21',
+    title: 'Hari Penuh Persiapan: Mengajar, Mempersiapkan, dan Berlatih',
+    excerpt: 'Senin, 11 Agustus 2025, KKN Sisdamas 54 mengisi hari dengan mengajar di Madrasah Ibtidaiyah, membangkitkan semangat belajar anak-anak desa. Siangnya dilanjutkan persiapan matang untuk seminar anti-bullying, mulai dari materi, fasilitas, hingga koordinasi teknis. Malam harinya, tim melaksanakan gladi bersih untuk memastikan acara berjalan lancar. Hari penuh persiapan ini meneguhkan komitmen dalam memberikan edukasi bermakna bagi masyarakat.',
+    content: `
+      <p>
+      Senin pagi yang cerah di Desa Harumansari dimulai dengan kegiatan yang penuh makna. Pukul 06.30 WIB, 
+      kelompok KKN 54 berangkat menuju Madrasah Ibtidaiyah (MI) untuk melaksanakan kegiatan mengajar.
+      Suasana di MI terasa hangat dan penuh semangat. Anak-anak MI menyambut kedatangan kakak-kakak mahasiswa dengan antusias. Dengan pendekatan yang disesuaikan dengan karakteristik siswa tingkat dasar, para mahasiswa menyampaikan materi pembelajaran dengan metode yang menarik dan interaktif. Tujuan utama dari kegiatan ini bukan hanya transfer ilmu, tetapi juga membangkitkan minat belajar dan semangat menuntut ilmu pada generasi muda desa.</br>
+
+      Persiapan Matang untuk Seminar Anti-Bullying
+      Memasuki siang hari, tepatnya pukul 14.00 WIB, seluruh anggota kelompok KKN 54 berkumpul untuk melakukan persiapan seminar yang sangat penting - seminar anti-bullying dan pencegahan pelecehan seksual. Persiapan ini bukan hal yang main-main, karena topik yang akan diangkat merupakan isu krusial yang perlu dipahami oleh masyarakat, terutama remaja dan orang tua.
+      Tim melakukan pengecekan menyeluruh mulai dari:</br>
+
+      <strong>Materi Presentasi:</strong> Memastikan konten yang akan disampaikan mudah dipahami dan relevan dengan kondisi masyarakat desa
+      <strong>Fasilitas dan Tempat:</strong> Mengatur tata ruang, sound system, dan peralatan presentasi
+      <strong>Koordinasi dengan Stakeholder:</strong> Memastikan komunikasi lancar dengan pihak sekolah dan tokoh masyarakat
+      <strong>Persiapan Teknis:</strong> Mengecek semua keperluan pendukung acara </br>
+
+      Setiap detail diperhatikan dengan seksama karena kami menyadari pentingnya seminar ini dalam memberikan edukasi dan pencegahan terhadap tindakan yang dapat merugikan, terutama bagi anak-anak dan remaja. </br>
+
+      <strong>Gladi Bersih: Latihan Menuju Kesempurnaan </strong> </br>
+      Pukul 20.00 WIB, malam yang tenang di posko KKN menjadi arena latihan intensif. Seluruh anggota kelompok melaksanakan gladi bersih untuk seminar yang akan diselenggarakan keesokan harinya. Suasana serius namun tetap kompak terasa di ruangan.
+      Dalam sesi gladi bersih ini, kami melakukan: </br>
+      <strong>Simulasi Presentasi Lengkap</strong> </br>
+      Setiap presenter berlatih menyampaikan materinya dengan durasi dan alur yang telah ditentukan. Feedback dan masukan dari rekan-rekan kelompok menjadi sangat berharga untuk penyempurnaan. </br>
+      <strong>Pengujian Alur Acara</strong> </br>
+      Mulai dari pembukaan, penyampaian materi utama, sesi tanya jawab, hingga penutupan - semuanya disimulasikan untuk memastikan tidak ada yang terlewat. </br>
+      <strong>Testing Peralatan</strong> </br>
+      laptop dan peralatan pendukung lainnya diuji coba untuk memastikan tidak ada kendala teknis di hari H.
+      <strong>Koordinasi Final</strong> </br>
+      Pembagian tugas yang jelas untuk setiap anggota, mulai dari MC, moderator, dokumentasi, hingga koordinator lapangan.</br>
+
+      <strong>Refleksi Hari yang Bermakna</strong> </br>
+      Malam itu, setelah gladi bersih selesai, kami merasakan kepuasan tersendiri. Bukan karena lelahnya hari yang panjang, tetapi karena rasa optimis bahwa persiapan matang yang telah dilakukan akan menghasilkan seminar yang berdampak positif.
+      Kegiatan mengajar di MI pagi tadi mengingatkan kami bahwa pendidikan adalah investasi jangka panjang untuk kemajuan desa. Sementara persiapan dan gladi seminar anti-bullying menunjukkan komitmen kami dalam memberikan edukasi yang tidak hanya teoritis, tetapi juga aplikatif dan relevan dengan kebutuhan masyarakat.
+      Hari ini membuktikan bahwa persiapan yang matang adalah kunci kesuksesan. Dengan semangat gotong royong dan dedikasi tinggi, kami yakin seminar besok akan menjadi momen berharga dalam perjalanan KKN kami di Desa Harumansari. </br>
+
+      Mari kita nantikan bagaimana seminar anti-bullying akan berlangsung dan dampak positif apa yang akan dihasilkan untuk masyarakat Desa Harumansari!
+
+      </p>
+    `,
+    author: {
+      name: 'Indie Jannatulma\'wa. H',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/indie.jpg?updatedAt=1753797710404',
+      bio: 'Hukum Keluarga'
+    },
+    category: 'Siklus 4',
+    tags: [],
+    publishedAt: '2025-08-11',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%202/53_20250821_211911_0000.jpg?updatedAt=1755970111458', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%202/54_20250821_211911_0001.jpg?updatedAt=1755970113891', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%202/55_20250821_211911_0002.jpg?updatedAt=1755970121809', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%202/56_20250821_211911_0003.jpg?updatedAt=1755970127912', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%202/57_20250821_211911_0004.jpg?updatedAt=1755970120580'],
+    featured: false
+  },
+  {
+    id: '22',
+    title: 'Seminar Anti-Bullying dan Lomba Meriah di Desa Harumansari',
+    excerpt: 'Selasa, 12 Agustus 2025, KKN Sisdamas 54 menggelar seminar penting tentang bullying dan kekerasan seksual di Sekolah Tjokroaminoto, diikuti antusias oleh siswa MI dan MTS. Sore harinya, kebersamaan semakin terasa melalui lomba makan kerupuk dan lomba kelereng bersama warga RW 08, menyambut HUT RI dengan penuh keceriaan.',
+    content: `
+      <p>
+      Selasa, 12 Agustus 2025 menjadi hari yang penuh makna bagi kami, tim KKN 54 Desa Harumansari. Sejak pagi hari, kami telah bersiap untuk melaksanakan salah satu program utama, yaitu seminar tentang bullying dan kekerasan seksual yang diselenggarakan di Sekolah Tjokroaminoto. Seminar ini menghadirkan audiensi dari siswa MI kelas 4, 5, dan 6 serta siswa MTS kelas 7, 8, dan 9. </br>
+
+      Acara dimulai pukul 06.30 WIB, diawali dengan sambutan dari pihak sekolah dan tim KKN 54. Suasana terasa hangat sekaligus serius karena tema yang dibahas sangat penting bagi tumbuh kembang generasi muda. Materi yang kami bawakan meliputi pemahaman tentang apa itu bullying, bentuk-bentuk kekerasan verbal maupun fisik, serta dampak psikologis yang bisa timbul pada korban. Selain itu, kami juga membahas mengenai kekerasan seksual, bagaimana mengenalinya, serta langkah-langkah pencegahan yang bisa dilakukan sejak dini.</br>
+
+      Para siswa tampak antusias mengikuti kegiatan, banyak dari mereka yang berani bertanya dan berbagi pengalaman. Diskusi interaktif ini menambah semarak acara, sekaligus membuka ruang kesadaran bahwa isu bullying dan kekerasan seksual bukanlah hal sepele. Dengan adanya seminar ini, kami berharap siswa semakin berani untuk berkata “tidak” terhadap segala bentuk kekerasan, dan lebih peduli terhadap teman sebaya yang membutuhkan dukungan. Acara berakhir pada pukul 12.00 WIB dengan suasana penuh rasa syukur dan harapan akan terciptanya lingkungan sekolah yang lebih aman dan nyaman.</br>
+
+      Tidak berhenti sampai di situ, kegiatan hari ini dilanjutkan pada sore hari setelah shalat Ashar. Tepat pukul 16.00 WIB, kami bersama warga RW 08 Kampung Sayuran menyelenggarakan lomba dalam rangka menyambut Hari Kemerdekaan RI. Kegiatan ini dipenuhi keceriaan anak-anak yang mengikuti lomba makan kerupuk dan lomba kelereng. Suasana sore itu penuh tawa, sorak-sorai penonton menambah semangat peserta yang berlomba dengan antusias.</br>
+
+      Lomba sederhana ini ternyata membawa makna yang besar, yakni mempererat kebersamaan warga, menumbuhkan rasa sportivitas, sekaligus memberikan ruang bagi anak-anak untuk merasakan kegembiraan di tengah persiapan menyambut HUT RI ke-79.
+      Hari ini menjadi gambaran betapa beragamnya pengalaman KKN. Pagi hingga siang kami diisi dengan kegiatan edukasi yang serius dan penuh wawasan, sedangkan sore hari kami merasakan kebersamaan lewat keceriaan lomba. Keduanya melengkapi perjalanan KKN 54 sebagai salah satu momen yang berkesan bagi kami dan masyarakat Desa Harumansari.
+      </p>
+    `,
+    author: {
+      name: 'Dhiya Ulhaq',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/Dhiya.jpg?updatedAt=1753797710076',
+      bio: 'Ilmu Hukum'
+    },
+    category: 'Siklus 4',
+    tags: [],
+    publishedAt: '2025-08-12',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%203/58_20250821_212108_0000.jpg?updatedAt=1755970135436', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%203/60_20250821_212109_0002.jpg?updatedAt=1755970129687', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%203/59_20250821_212108_0001.jpg?updatedAt=1755970127243'],
+    featured: false
+  },
+  {
+    id: '23',
+    title: 'Belajar, Berbagi, dan Bergembira Bersama Warga',
+    excerpt: 'Hari ini mahasiswa KKN mengikuti panduan penulisan artikel hasil KKN secara daring, hadir dalam pengajian rutin warga RW 08, serta memeriahkan lomba 17 Agustusan dengan berbagai permainan seru. Kegiatan ditutup dengan mengajar anak-anak MDTA, memperkuat nilai spiritual, kebersamaan, dan semangat belajar di Desa Harumansari.',
+    content: `
+      <p>
+      1. Zoom Panduan Penulisan Artikel Hasil KKN: Mahasiswa mengikuti panduan penulisan artikel hasil KKN secara daring. Kegiatan ini bertujuan agar laporan yang dihasilkan sesuai kaidah akademik dan bermanfaat bagi pengembangan keilmuan. </br>
+
+      2. Pengajian Rutinan Warga Kampung Sayuran RW 08: Mahasiswa turut hadir dalam pengajian rutin warga sebagai bentuk partisipasi dan silaturahmi, sekaligus memperkuat nilai spiritual serta kebersamaan.</br>
+
+      3. Lomba 17 Agustusan: Perlombaan yang diadakan meliputi lomba karung, lomba joget balon, dan lomba meniup cup. Suasana berlangsung meriah, penuh semangat, canda, dan tawa, sehingga mempererat kebersamaan antara mahasiswa dan warga.</br>
+
+      4. Mengajar MDTA: Mahasiswa tetap melaksanakan kegiatan mengajar anak-anak MDTA, khususnya dalam pembelajaran Al-Qur’an dan materi keagamaan.</br>
+      </p>
+    `,
+    author: {
+      name: 'Alina Balqiya Rahma',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0869.jpg?updatedAt=1754147178258',
+      bio: 'Pendidikan Bahasa Arab'
+    },
+    category: 'Siklus 4',
+    tags: [],
+    publishedAt: '2025-08-13',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%204/61_20250821_212447_0000.jpg?updatedAt=1755970135490', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%204/65_20250821_212447_0004.jpg?updatedAt=1755970133239','https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%204/62_20250821_212447_0001.jpg?updatedAt=1755970133176', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%204/63_20250821_212447_0002.jpg?updatedAt=1755970137122', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%204/64_20250821_212447_0003.jpg?updatedAt=1755970141372'],
+    featured: false
+  },
+  {
+    id: '24',
+    title: 'Semangat Kebersamaan dalam Perlombaan',
+    excerpt: 'Rangkaian lomba estafet cup sedotan, tiup bola, dan sentil bola berlangsung meriah, dipenuhi tawa serta semangat sportivitas yang mempererat kekompakan antarwarga.',
+    content: `
+      <h3>Lomba 17 Agustusan</h3>
+      <p>
+      Rangkaian lomba dilanjutkan dengan lomba estafet cup sedotan, lomba tiup bola, dan lomba sentil bola. Semua kegiatan berlangsung seru dan penuh tawa, sekaligus menumbuhkan rasa sportivitas dan kekompakan antarwarga.
+      </p>
+    `,
+    author: {
+      name: 'Alina Balqiya Rahma',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0869.jpg?updatedAt=1754147178258',
+      bio: 'Pendidikan Bahasa Arab'
+    },
+    category: 'Siklus 4',
+    tags: [],
+    publishedAt: '2025-08-14',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%205/68_20250821_212535_0001.jpg?updatedAt=1755970138868', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%205/67_20250821_212535_0000.jpg?updatedAt=1755970139960'],
+    featured: false
+  },
+    {
+    id: '25',
+    title: 'Jumat Berkah di Desa Harumansari: Kajian Tafsir, Jumsih, dan Lomba 17an',
+    excerpt: 'Jumat, 15 Agustus 2025, KKN Sisdamas 54 bersama warga Desa Harumansari mengisi hari dengan kajian tafsir selepas Subuh, kegiatan gotong royong Jumsih, serta rangkaian lomba 17 Agustusan yang berlangsung meriah dengan penuh canda tawa.',
+    content: `
+      <p>
+      Jumat, 15 Agustus 2025, suasana Desa Harumansari terasa penuh keberkahan sejak pagi hari. Selepas Salat Subuh, warga bersama tim KKN Sisdamas 54 mengikuti kajian tafsir Al-Qur’an. Kegiatan ini menjadi ruang untuk memperdalam pemahaman ayat-ayat suci sekaligus membangun kesadaran spiritual masyarakat. Antusiasme jamaah terlihat dari keaktifan dalam mendengarkan dan berdiskusi, menjadikan kajian ini sebagai awal hari yang penuh makna. </br>
+
+      Memasuki pukul 07.00 WIB, kegiatan dilanjutkan dengan Jumat Bersih (Jumsih). Seluruh warga dan mahasiswa KKN turun tangan membersihkan area masjid, jalan lingkungan, dan fasilitas umum lainnya. Dengan semangat gotong royong, suasana kebersamaan semakin terasa. Selain menjaga kebersihan, kegiatan ini juga mempererat hubungan antara warga dan mahasiswa, menciptakan lingkungan yang sehat dan nyaman.</br>
+
+      Menjelang sore, semangat perayaan kemerdekaan semakin terasa dengan digelarnya lomba 17 Agustusan. Hari ini dipertandingkan dua lomba yang tak kalah seru, yakni lomba tiup bola dan lomba memasukkan sumpit ke botol. Tawa dan sorakan penonton pecah setiap kali peserta berusaha menyelesaikan tantangan dengan cara unik dan lucu. Suasana riuh penuh semangat membuat sore itu terasa istimewa, menghadirkan keceriaan bagi anak-anak hingga orang dewasa.</br>
+
+      Hari ini menjadi bukti nyata bahwa kegiatan KKN tidak hanya tentang edukasi, tetapi juga merangkul sisi sosial, spiritual, dan kebersamaan masyarakat. Dengan kajian, gotong royong, dan lomba yang meriah, Desa Harumansari semakin hangat dalam semangat ukhuwah dan cinta tanah air menjelang HUT RI ke-80.</br>
+      </p>
+    `,
+    author: {
+      name: 'Muhamad Nopid Andriansyah',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0895.jpg?updatedAt=1754147177634',
+      bio: 'Teknik Informatika'
+    },
+    category: 'Siklus 4',
+    tags: [],
+    publishedAt: '2025-08-15',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%206/69_20250821_212756_0000.jpg?updatedAt=1755970142422', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%206/70_20250821_212756_0001.jpg?updatedAt=1755970145496', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%206/71_20250821_212756_0002.jpg?updatedAt=1755970152616', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%206/72_20250821_212756_0003.jpg?updatedAt=1755970158309'],
+    featured: false
+  },
+    {
+    id: '26',
+    title: 'Semangat Menyambut Kemerdekaan: Lomba 17an dan Gladi Bersih Upacara',
+    excerpt: 'Sabtu, 16 Agustus 2025, Desa Harumansari semakin meriah dengan lomba estafet tali rapiah, lomba mencari bola, dan lomba estafet bola yang penuh keceriaan. Menjelang malam, suasana berubah khidmat saat seluruh elemen masyarakat bersama KKN Sisdamas 54 melaksanakan gladi bersih upacara 17 Agustus.',
+    content: `
+      <p>
+      Sabtu, 16 Agustus 2025, semarak HUT RI ke-80 semakin terasa di Desa Harumansari. Sejak siang hingga sore, warga bersama tim KKN Sisdamas 54 menggelar rangkaian lomba 17 Agustusan. Tiga perlombaan yang dipertandingkan hari ini adalah lomba estafet tali rapiah, lomba mencari bola, dan lomba estafet bola. Setiap lomba berlangsung seru, penuh sorak-sorai dan gelak tawa, baik dari peserta maupun penonton. Anak-anak hingga orang dewasa larut dalam keceriaan, menciptakan suasana kebersamaan yang semakin erat. </br>
+
+      Menjelang malam, semarak lomba berganti dengan nuansa khidmat ketika seluruh panitia, warga, dan mahasiswa KKN berkumpul di lapangan desa untuk melaksanakan gladi bersih upacara 17 Agustus. Seluruh rangkaian acara, mulai dari persiapan barisan, pengibaran bendera, hingga tata cara upacara, dilatih dengan penuh keseriusan. Meskipun sederhana, semangat nasionalisme dan rasa hormat terhadap perjuangan para pahlawan begitu terasa.</br>
+
+      Hari ini menjadi gambaran bahwa Desa Harumansari bukan hanya meriah dalam perayaan, tetapi juga siap dengan penuh khidmat untuk menyambut detik-detik Proklamasi. Perpaduan antara keceriaan lomba dan kesungguhan dalam persiapan upacara semakin memperkuat semangat cinta tanah air di tengah masyarakat.</br>
+      </p>
+    `,
+    author: {
+      name: 'Achmad Haikal Azumardi Azra',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/Haikal.jpg?updatedAt=1753804445384',
+      bio: 'Ilmu Tafsir dan Al-Qur\'an'
+    },
+    category: 'Siklus 4',
+    tags: [],
+    publishedAt: '2025-08-16',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%207/75_20250821_212902_0002.jpg?updatedAt=1755970158136', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%207/73_20250821_212902_0000.jpg?updatedAt=1755970154170', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%207/74_20250821_212902_0001.jpg?updatedAt=1755970156184', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%207/76_20250821_212902_0003.jpg?updatedAt=1755970154806', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%207/77_20250821_212902_0004.jpg?updatedAt=1755970160031'],
+    featured: false
+  },
+  {
+    id: '27',
+    title: 'Merayakan Semangat Kemerdekaan dan Kebersamaan di Kampung Sayuran',
+    excerpt: 'Perayaan HUT RI ke-80 di Kampung Sayuran diisi dengan upacara khidmat, lomba kreatif bersama ibu-ibu, serta upacara penutupan yang penuh rasa syukur. Selain itu, mahasiswa KKN juga tetap mengajar di MDTA, meneguhkan komitmen pada pendidikan dan pembinaan generasi penerus.',
+    content: `
+      <p>
+      Minggu yang penuh makna telah kami lewati di Kampung Sayuran dengan rangkaian kegiatan yang tidak hanya mempererat tali persaudaraan, tetapi juga memperkuat semangat gotong-royong dan pendidikan di lingkungan kami.</br>
+
+      Upacara Kemerdekaan ke-80: Semangat Nasionalisme yang Membara
+      Pagi yang cerah membuka hari bersejarah ketika kami melaksanakan Upacara Kemerdekaan Republik Indonesia yang ke-80. Warga kampung hadir dengan penuh antusias, mengenakan pakaian merah putih sebagai simbol cinta tanah air. Upacara berjalan khidmat, dengan pembacaan teks proklamasi dan lagu-lagu perjuangan yang menggugah semangat. Momen ini menjadi pengingat akan pentingnya mempertahankan kemerdekaan dan terus berkontribusi bagi pembangunan bangsa.</br>
+
+      Lomba Bersama Ibu-Ibu Kampung Sayuran: Merajut Kebersamaan
+      Setelah upacara, suasana berubah lebih hangat dengan digelarnya berbagai lomba seru bersama ibu-ibu kampung sayuran. Lomba memasak, menjahit, hingga permainan tradisional menjadi wahana bagi para ibu untuk menunjukkan bakat dan kebersamaannya. Kegiatan ini bukan hanya hiburan semata, tetapi juga sarana memperkuat solidaritas dan saling mendukung antarwarga.</br>
+
+      Upacara Penutupan: Menutup Dengan Rasa Syukur dan Semangat Baru
+      Di penghujung rangkaian kegiatan, kami mengadakan Upacara Penutupan yang menandai berakhirnya perayaan ini dengan rasa syukur. Sambutan hangat dari kepala kampung mengapresiasi partisipasi seluruh warga dan meneguhkan komitmen untuk terus menjaga keharmonisan serta melestarikan nilai-nilai kebangsaan. </br>
+
+      Mengajar di MDTA: Membangun Generasi Penerus yang Cerdas dan Berakhlak
+      Tidak hanya fokus pada perayaan, kegiatan positif juga kami lakukan dengan mengajar di Madrasah Diniyah Takmiliyah Awaliyah (MDTA). Melalui pengajaran agama dan penanaman nilai moral, kami berharap dapat membentuk generasi muda yang tidak hanya cerdas secara intelektual, tetapi juga berakhlak mulia. Aktivitas ini menjadi bagian dari kontribusi nyata kami untuk masa depan kampung sayuran.
+      </p>
+    `,
+    author: {
+      name: 'Ayi Husni Rofi\'i',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0913.jpg?updatedAt=1754147177479',
+      bio: 'Manajemen Pendidikan Islam'
+    },
+    category: 'Siklus 4',
+    tags: [],
+    publishedAt: '2025-08-17',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%208/86_20250821_213121_0008.jpg?updatedAt=1755970179167', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%208/78_20250821_213120_0000.jpg?updatedAt=1755970160338' , 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%208/82_20250821_213121_0004.jpg?updatedAt=1755970177192', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%208/84_20250821_213121_0006.jpg?updatedAt=1755970186884', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%208/80_20250821_213120_0002.jpg?updatedAt=1755970163222', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%208/79_20250821_213120_0001.jpg?updatedAt=1755970162246'],
+    featured: false
+  },
+
+  // siklus 4 minggu ke 2
+
+  {
+    id: '28',
+    title: 'Semarak Futsal, Mengajar di MDTA, dan Latihan Menyanyi Bersama Warga',
+    excerpt: 'Hari Senin, 18 Agustus 2025, diisi dengan perlombaan futsal meriah bersama anak-anak, ibu-ibu, dan panitia, dilanjutkan dengan kegiatan mengajar di MDTA serta latihan menyanyi malam hari sebagai persiapan penutupan rangkaian acara HUT RI.',
+    content: `
+      <p>
+      Kegiatan pada hari Senin, 18 Agustus 2025, dimulai pukul 16.00 WIB dengan perlombaan futsal yang diikuti oleh anak-anak, ibu-ibu, serta panitia. Perlombaan ini berlangsung meriah dan menjadi salah satu rangkaian acara untuk memeriahkan HUT RI di lingkungan RW. </br>
+
+      Setelah Maghrib, pukul 18.00 WIB, kegiatan dilanjutkan dengan mengajar di MDTA. Pengajaran pada hari itu dipandu oleh Faiz, Indie, Syifa, dan Dodi yang membawakan materi keagamaan kepada anak-anak.</br>
+
+      Pada malam hari, pukul 20.00 WIB, mahasiswa KKN bersama warga melaksanakan latihan menyanyi di RW sebagai persiapan untuk malam penutupan kegiatan.</br>
+      </p>
+    `,
+    author: {
+      name: 'Athirah Andalsiawati',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0939.jpg?updatedAt=1754147178218',
+      bio: 'Psikologi'
+    },
+    category: 'Siklus 4',
+    tags: [],
+    publishedAt: '2025-08-18',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%209/88_20250821_213231_0001.jpg?updatedAt=1755970190683', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%209/87_20250821_213231_0000.jpg?updatedAt=1755970190121', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%209/89_20250821_213231_0002.jpg?updatedAt=1755970186916'],
+    featured: false
+  },
+  {
+    id: '29',
+    title: 'Kemeriahan Lomba Futsal: Ajang Sportivitas dan Kebersamaan Warga Kampung Sayuran',
+    excerpt: 'Sore di Kampung Sayuran dipenuhi semangat dengan digelarnya lomba futsal. Pertandingan anak-anak hingga laga persahabatan antara pemudi kampung dan mahasiswa KKN berlangsung seru, penuh tawa, serta mempererat silaturahmi dan kebersamaan warga.',
+    content: `
+      <p>
+      Suasana sore di Kampung Sayuran semakin meriah dengan digelarnya rangkaian lomba futsal. Acara dimulai setelah salat Ashar, diawali dengan pertandingan futsal anak-anak yang penuh semangat. Sorak sorai penonton menambah suasana semakin seru, sekaligus menjadi ajang hiburan dan kebersamaan warga. </br>
+      Setelah pertandingan anak-anak selesai, acara dilanjutkan dengan laga persahabatan yang tak kalah menarik. Kali ini, tim futsal pemudi Kampung Sayuran berhadapan dengan peserta KKN putri. Pertandingan berlangsung penuh keceriaan, diwarnai tawa dan semangat sportivitas dari kedua tim.</br>
+      Kegiatan ini bukan hanya sekadar lomba olahraga, tetapi juga menjadi wadah silaturahmi antara warga dengan mahasiswa KKN. Melalui futsal, terjalin keakraban, kekompakan, serta semangat kebersamaan yang membawa warna baru bagi masyarakat Kampung Sayuran.</br>
+      </p>
+    `,
+    author: {
+      name: 'Syifa Apriliani Salsabila',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/Sipa.jpg?updatedAt=1753797709773',
+      bio: 'Ilmu Komunikasi Jurnalistik'
+    },
+    category: 'Siklus 4',
+    tags: [],
+    publishedAt: '2025-08-19',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%2010/90_20250821_213314_0000.jpg?updatedAt=1755970108648', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%2010/91_20250821_213314_0001.jpg?updatedAt=1755970114312'],
+    featured: false
+  },
+  {
+    id: '30',
+    title: 'Sinergi Kesehatan, Sosial, dan Budaya dalam Pemberdayaan Masyarakat di  desa Harumansari',
+    excerpt: 'Kegiatan KKN di Desa Harumansari mencerminkan sinergi antara aspek kesehatan, sosial, dan budaya. Program senam pagi disambut antusias oleh warga, pemetaan sosial dilakukan untuk memahami kondisi masyarakat secara menyeluruh, dan lomba 17 Agustusan mempererat nilai kebersamaan serta nasionalisme anak-anak desa.',
+    content: `
+      <h3>POSYANDU</h3>
+      <p>
+      Mahasiswa KKN melaksanakan kegiatan Posyandu di desa Harumansari. Kegiatan ini berlangsung sejak pagi, dimulai dengan penimbangan balita, pemeriksaan kesehatan, serta pemberian vitamin dan imunisasi. Mahasiswa KKN membantu kader posyandu dalam pendataan dan pelayanan, sekaligus memberikan edukasi singkat kepada para ibu mengenai gizi seimbang untuk tumbuh kembang anak.
+      </p>
+      <h3>Lomba 17 Agustusan: Lomba LCC Ibu-Ibu</h3>
+      <p>
+      Siang harinya, kegiatan dilanjutkan dengan Lomba 17 Agustusan khusus untuk ibu-ibu berupa Lomba Cerdas Cermat (LCC). Lomba ini menguji wawasan peserta seputar pengetahuan umum, kesehatan keluarga, dan sejarah kemerdekaan. Suasana lomba berlangsung meriah, penuh canda dan tawa, namun tetap kompetitif. Melalui kegiatan ini, selain mempererat silaturahmi antarwarga, semangat kebersamaan dan kecintaan pada tanah air pun semakin terasa.
+      </p>
+    `,
+    author: {
+      name: 'Alina Balqiya Rahma',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0869.jpg?updatedAt=1754147178258',
+      bio: 'Pendidikan Bahasa Arab'
+    },
+    category: 'Siklus 4',
+    tags: [],
+    publishedAt: '2025-08-20',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%2011/Senam%20pagi%20bersama%20masyarakat_20250821_213354_0000.jpg?updatedAt=1755970091005'],
+    featured: false
+  },
+  {
+    id: '31',
+    title: 'Sinergi Kesehatan, Sosial, dan Budaya dalam Pemberdayaan Masyarakat di  desa Harumansari',
+    excerpt: 'Kegiatan KKN di Desa Harumansari mencerminkan sinergi antara aspek kesehatan, sosial, dan budaya. Program senam pagi disambut antusias oleh warga, pemetaan sosial dilakukan untuk memahami kondisi masyarakat secara menyeluruh, dan lomba 17 Agustusan mempererat nilai kebersamaan serta nasionalisme anak-anak desa.',
+    content: `
+      <h3>POSYANDU</h3>
+      <p>
+      Mahasiswa KKN melaksanakan kegiatan Posyandu di desa Harumansari. Kegiatan ini berlangsung sejak pagi, dimulai dengan penimbangan balita, pemeriksaan kesehatan, serta pemberian vitamin dan imunisasi. Mahasiswa KKN membantu kader posyandu dalam pendataan dan pelayanan, sekaligus memberikan edukasi singkat kepada para ibu mengenai gizi seimbang untuk tumbuh kembang anak.
+      </p>
+      <h3>Lomba 17 Agustusan: Lomba LCC Ibu-Ibu</h3>
+      <p>
+      Siang harinya, kegiatan dilanjutkan dengan Lomba 17 Agustusan khusus untuk ibu-ibu berupa Lomba Cerdas Cermat (LCC). Lomba ini menguji wawasan peserta seputar pengetahuan umum, kesehatan keluarga, dan sejarah kemerdekaan. Suasana lomba berlangsung meriah, penuh canda dan tawa, namun tetap kompetitif. Melalui kegiatan ini, selain mempererat silaturahmi antarwarga, semangat kebersamaan dan kecintaan pada tanah air pun semakin terasa.
+      </p>
+    `,
+    author: {
+      name: 'Alina Balqiya Rahma',
+      avatar: 'https://ik.imagekit.io/kkn54harumansari/Lainnya/Penulis/IMG_0869.jpg?updatedAt=1754147178258',
+      bio: 'Pendidikan Bahasa Arab'
+    },
+    category: 'Siklus 4',
+    tags: [],
+    publishedAt: '2025-08-21',
+    imageUrl: ['https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%2012/93_20250821_213632_0000.jpg?updatedAt=1755970118553','https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%2012/94_20250821_213633_0001.jpg?updatedAt=1755970098469', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%2012/96_20250821_213633_0003.jpg?updatedAt=1755970117820', 'https://ik.imagekit.io/kkn54harumansari/Siklus%204/Day%2012/95_20250821_213633_0002.jpg?updatedAt=1755970112831'],
+    featured: false
+  }
+
 ];
 
 export const categories = [
